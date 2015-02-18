@@ -15,8 +15,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'mongoid'
 gem 'bson_ext'
 
-# Templating
-gem "haml-rails", "~> 0.8"
+# Template engine
+gem 'haml-rails', '~> 0.8'
+# Styling framework
+gem 'foundation-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
