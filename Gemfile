@@ -16,7 +16,7 @@ gem 'mongoid'
 gem 'bson_ext'
 
 # Template engine
-gem 'haml-rails', '~> 0.8'
+gem 'slim-rails'
 # Styling framework
 gem 'foundation-rails'
 
