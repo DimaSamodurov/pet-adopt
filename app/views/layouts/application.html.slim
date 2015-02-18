@@ -8,4 +8,9 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   body
+    link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css" /
+    header
+      = render 'header'
     = yield
+    footer
+      = render 'footer'
