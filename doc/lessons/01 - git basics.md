@@ -8,13 +8,12 @@
 
 ## Практика
 
-- Створити обліковий запис Gighub
-- Додати публічний ключ до вашого облікового запису Gighub згідно [інструкції](https://help.github.com/articles/generating-ssh-keys/).
+- Створити обліковий запис Github
+- Додати публічний ключ до вашого облікового запису Github згідно [інструкції](https://help.github.com/articles/generating-ssh-keys/).
 - Сконфігурувати git:
 
         git config --global user.name "Your Name"
         git config --global user.email "youremail@domain.com"
-
 
 - Склонувати репозиторій
 
@@ -23,6 +22,7 @@
 - Стягнути зміни з віддаленого репо
 
         git pull
+        git pull --rebase
 
 - Додати змінені файли у локальний репо
 
@@ -35,8 +35,25 @@
 - Віддати зміни у віддалений репо
 
         git push
+        
+- Приховати зміни
+
+        # Лише змінені файли
+        git stash
+        # Додані і змінені файли
+        git stash -u
+
+- Повернути попередньо приховані зміни
+
+        git stash pop
+        
+ # Завдання
+        
+- Люди А, Б, С відредагувати файл README.md, по різному змінівши першу стрічку.
+- Необхідно всім закомітіти зміни і віддати у репо.
 
 
 ## Рекомендовані джерела
 
 Git documentation: [http://git-scm.com/docs/](http://git-scm.com/docs/)
+
