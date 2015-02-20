@@ -1,0 +1,313 @@
+/* ********************************************** */
+/* Danneo CMS Red Template © 2005 Danneo Team */
+/* ********************************************** */
+/*   This file is created Danneo CSS Visual Pro   */
+/* ********************************************** */
+/* Body */
+body                                      {background-color:#f2f2f2;
+                                           margin:0; padding-top:0; padding-bottom:0;
+                                           text-align:center;
+                                           font-size:11px; color:#000;
+                                           font-family:Arial,Tahoma,Verdana, sans-serif;}
+img                                       {border:0px;}
+form                                      {display:inline;}
+li                                        {color:#7B0000; list-style-type:square;}
+fieldset                                  {text-decoration:none; border:1px solid #ccc; padding:5px;}
+legend                                    {color:#909090; font-weight:bold;}
+.cs                                       {margin:2px 0;color:#909090}
+/* Links */
+a:link,
+a:visited                                 {color:#090909; text-decoration:none;}
+a:hover                                   {color:#7B0000; text-decoration:underline;}
+a.cat:link,
+a.cat:visited                             {color:#7B0000; text-decoration:none;}
+a.cat:hover                               {color:#7B0000; text-decoration:underline;}
+a.blockmenu:link,
+a.blockmenu:visited                       {color:#303030; text-decoration:none; font:normal 13px Tahoma,Arial,sans-serif;
+                                           padding-left:14px; line-height:22px; display:block;
+                                           border-bottom:1px solid #acacac; background-color:#e7e7e7;}
+a.blockmenu:hover                         {color:#000; background-color:#e7e7e7; font:normal 13px tahoma,arial,sans-serif;
+                                           padding-left:14px; line-height:22px; display:block;
+                                           border-bottom:1px solid #acacac; text-decoration:underline;}
+a.linkbutton:link,
+a.linkbutton:visited                      {font-size:10px; color:#303030; text-decoration:none;
+                                           background-color:#F2F2F2; padding:2px 7px;}
+a.linkbutton:hover                        {font-size:10px; color:#000; text-decoration:none;
+                                           background-color:#E0E0E0; padding:2px 7px; font-weight:normal;}
+a.last:link,
+a.last:visited                            {color:#7B0000; text-decoration:none;}
+a.last:hover                              {color:#649BB5; text-decoration:underline;}
+a.load:link,
+a.load:visited                            {color:#fff; border:0; padding:3px 7px; cursor:pointer; font-size:11px; font-weight:bold; background:#920000;}
+a.load:hover                              {color:#fff; border:0; padding:3px 7px; cursor:pointer; font-size:11px; font-weight:bold; background:#595959;}
+a.jump:link,
+a.jump:visited                            {color:#fff; border:0; padding:3px 7px; cursor:pointer; font-size:11px; font-weight:bold; background:#920000;}
+a.jump:hover                              {color:#fff; border:0; padding:3px 7px; cursor:pointer; font-size:11px; font-weight:bold; background:#595959;}
+/* Pages */
+.pages                                    {margin:2px 0; padding:5px 10px; text-align:center;}
+.pagesempty                               {font-size:10px; color:#000; text-decoration:none;
+                                           background-color:#bbb; padding:2px 4px; font-weight:normal;}
+a.pages:link,
+a.pages:visited                           {font-size:10px; color:#202020; text-decoration:none;;
+                                           background-color:#fafafa; padding:2px 4px;}
+a.pages:hover                             {font-size:10px; color:#000; text-decoration:none;
+                                           background-color:#bbb; padding:2px 4px;}
+/* Table & Forms */
+table                                     {border:0px;}
+table,td,div                              {color:#404040; font:normal 11px Verdana,Arial,Tahoma, sans-serif;}
+textarea,input                            {font-size:11px;color:#202020; padding:0px 3px 2px 3px; font-family:Tahoma,Verdana,Arial sans-serif;border:1px solid #dad9d9;}
+select,option                             {font-size:10px;}
+blockquote                                {padding: 0 15 0 45; border:1px solid #dad9d9;
+                                           background:#fff url(../images/quote.gif) no-repeat top left;
+                                           margin-left:8px;
+                                           font-style:normal;}
+.phpcode                                  {text-align: left; padding: 15 15 15 65; border: 1px inset;
+                                           background: #E6E6E6 url(../images/code.gif) no-repeat top left;
+                                           margin-left: 8px;
+                                           font-style: normal;}
+.one                                      {background-color:#649BB5; color:#fff;}
+/* Buttons */
+.rbutton                                  {color:#fff; border:0; padding:1px 1px; cursor:pointer; font-size:11px; font-weight:bold; background:#920000;}
+.rerbutton                                {color:#fff; border:0; padding:1px 1px; cursor:pointer; font-size:11px; font-weight:bold; background:#595959;}
+.comment                                  {color:#fff; border:0; padding:1px 1px; cursor:pointer; font-size:11px; font-weight:bold; background:#920000;}
+.recomment                                {color:#fff; border:0; padding:1px 1px; cursor:pointer; font-size:11px; font-weight:bold; background:#595959;}
+.sbutton                                  {color:#fff; border:0; padding:1px 1px; cursor:pointer; font-size:11px; font-weight:bold; background:#595959;}
+.resbutton                                {color:#fff; border:0; padding:1px 1px; cursor:pointer; font-size:11px; font-weight:bold; background:#920000;}
+html>body .rbutton                        {padding:1px 8px 2px 8px;}
+html>body .rerbutton                      {padding:1px 8px 2px 8px;}
+html>body .comment                        {padding:1px 8px 2px 8px;}
+html>body .recomment                      {padding:1px 8px 2px 8px;}
+html>body .sbutton                        {padding:1px 8px 2px 8px;}
+html>body .resbutton                      {padding:1px 8px 2px 8px;}
+/* * html */
+/* Standart Style */
+.top                                      {height:92px; background-color:#7b0000; border-top:3px solid #a7cbdc;
+                                           text-align:center;}
+.topleft                                  {height:92px; border-bottom:3px solid #b20000;
+                                           text-align:center;}
+.topcenter                                {height:112px; background-color:#7B0000;
+                                           text-align:left; padding:10px 0}
+.topright                                 {height:100px; border-bottom:3px solid #b20000;
+                                           text-align:center;}
+
+.topmenu                                  {background:#69686D;font-family:verdana,arial,sans-serif;text-transform: uppercase;
+                                           padding:10px 5px 12px 5px;margin:0px; color:#000; text-align:center;}
+.topmenu a:link,
+.topmenu a:visited                        {text-decoration: none; color: #fff; margin: 0px; padding:4px 6px 5px 6px; font-size:10px; background-color: #595959;}
+.topmenu a:hover                          {text-decoration: none; color: #fff; margin: 0px; padding:4px 6px 5px 6px; font-size:10px; background-color: #424242;}
+
+.botmenu                                  {background:#69686D;font-family:verdana,arial,sans-serif;text-transform: uppercase;
+                                           padding:10px 5px;margin:0px; color:#000; text-align:center;}
+.botmenu a:link,
+.botmenu a:visited                        {text-decoration: none; color: #fff; margin: 0px; padding:4px 6px 5px 6px; font-size:10px; background-color: #595959;}
+.botmenu a:hover                          {text-decoration: none; color: #fff; margin: 0px; padding:4px 6px 5px 6px; font-size:10px; background-color: #424242;}
+
+.divmenu                                  {margin:3px; padding:3px;}
+.blockmenu                                {height:22px;}
+.siteleft                                 {width:190px; padding:0px; text-align:center;background-color:#f2f2f2}
+.sitecenter                               {width:100%; padding:0px; text-align:center;}
+.siteright                                {padding:0px; text-align:center;background-color:#f2f2f2}
+.centeralign                              {text-align:center;}
+.botcontent                               {text-align:center; background-color:#7B0000; margin:0px; padding:12px;}
+.botin                                    {margin:0px; padding:0px; color:#fff; vertical-align:middle; line-height: 20px;}
+.botin #copy                              {float:left; color: #fff;}
+.botin a:link,
+.botin a:visited                          {color: #fff;}
+.botin a:hover                            {color: #fff;}
+
+.sitetitle                                {background-color:#acacac; padding:5px 5px 5px 10px;
+                                           line-height:15px; font-weight:normal; color:#000;font-size:13px; text-align:left;}
+.sitetitle a:link,
+.sitetitle a:visited                        {text-decoration: none; color: #000;}
+.sitetitle a:hover                          {text-decoration: underline; color: #000;}
+
+.siterec                                  {height:22px; padding:5px 10px; background-color:#f9f9f9;
+                                           line-height:22px; font-weight:normal; color:#acacac;
+                                           border-bottom:1px solid #d1d1d1; text-align:left;}
+.siterectime                               {display:inline; float:right; font-size:9px;
+                                           color:#666; padding:3px;}
+
+
+.sitenotice                               {margin:3px 0 10px 0; padding:35px; background-color:#ffe; color:#a70000;}
+.boxtitle                                 {background-color:#acacac; padding:5px 5px 5px 10px;
+                                           line-height:15px; font-weight:normal; color:#000;font-size:13px; text-align:left;}
+.boxtext                                  {margin:3px 0 10px 0; padding:35px; background-color:#ffe; color:#a70000;}
+.boxin                                    {margin:0px; padding:15px 25px; background-color:#f9f9f9;text-align:left;}
+.formnotice                               {margin:0px; margin-top:2px; padding:5px; background-color:#F9F9F9;
+                                           border:0px solid #bebebe;}
+.simple                                   {margin-top:5px; padding:2px;}
+.simpletitle                              {background-color:#f0f0f0; height:22px; padding-left:10px;
+                                           line-height:25px; color:#909090;
+                                           margin:0px 5px 0px 5px;}
+.simpletitle a:link,
+.simpletitle a:visited                    {color:#606060;font-size:12px;}
+.simpletitle a:hover                      {color:#7B0000;}
+
+.post                                     {margin:3px; padding:3px; background-color:#fff;
+                                           border:1px solid #d1d1d1;}
+.postauthor                               {padding:5px;background:#f9f9f9;
+                                           line-height:15px; text-align:left; clear: both;}
+.posttitle                                {padding:10px; text-align:left;}
+.posttime                                 {display:inline; float:right; font-size:9px; line-height:10px;
+                                           color:#333;}
+
+.message                                  {border:1px solid #d1d1d1; width:100%;height:100%; background:#f9f9f9;}
+.messagetitle                             {padding:5px 10px; text-align:left; color:#920000; border-bottom:1px solid #f0f0f0; background:#f1f1f1;}
+.messagetext                              {padding:15px; text-align:left; background:#fff;}
+.messageauthor                            {padding:7px 0; font-size:10px; width:120px;height:100%;
+                                           background-color:#f1f1f1;border-right:1px solid #d1d1d1;vertical-align:top}
+
+.messagecontent                           {height:100%;vertical-align:top}
+
+.contetitle                               {background-color:#649BB5; height:25px; font-weight:bold; color:#fff;
+                                           border-bottom:1px solid #CBCBCB; padding:5px;}
+.sitein                                   {margin:0 5px; padding:3px; background-color:#f0f0f0;}
+
+.blocktext                                {padding:10px;color:#404040}
+.btext_menu                               {padding:0px;color:#404040}
+.paddingtext                              {padding:10px;background-color:#fff}
+.redfont                                  {color:#7B0000;}
+.darfont                                  {color:#030303;}
+.timefont                                 {float:right; color:#8A8B8B;font-size:11px;}
+.formtext                                 {padding-left:10px; padding:5px; line-height:22px;}
+/* Block */
+.spaceline                                {height:10px; font-size:5px; clear:both;}
+.leftblock                                {background-color:#fff;}
+.leftblocktitle                           {padding:3px 5px 3px 14px; text-align:left; font-size:13px;
+                                           background:#acacac;font-family:verdana,arial,sans-serif;
+                                           line-height:22px; font-weight:bold; color:#fff;border-bottom:0px solid #acacac}
+.topblock                                 {padding:3px 5px 3px 14px; text-align:left; font-size:13px;
+                                           background:#acacac;font-family:verdana,arial,sans-serif;
+                                           line-height:22px; font-weight:bold; color:#fff;border-bottom:0px solid #acacac}
+.botblock                                 {background-color:#d1d1d1; height:25px; padding-left:10px;
+                                           line-height:22px; font-weight:bold; color:#000;
+                                           border-top:5px solid #edecec;}
+.rightblock                               {background-color:#fff;}
+.rightblocktitle                          {padding:3px 5px 3px 14px; text-align:left; font-size:13px;
+                                           background:#acacac;font-family:verdana,arial,sans-serif;
+                                           line-height:22px; font-weight:bold; color:#fff;border-bottom:0px solid #acacac}
+.redblock                                 {background-color:#fff;}
+.redblocktitle                            {padding:3px 5px 3px 14px; text-align:left; font-size:13px;
+                                           background:#920000;font-family:verdana,arial,sans-serif;
+                                           line-height:22px; font-weight:bold; color:#fff;border-bottom:0px solid #acacac}
+.promoblock                               {height:91px; background-color:#f7f7f7; border-left:1px solid #d1d1d1;
+                                           border-top:1px solid #d1d1d1; border-right:1px solid #d1d1d1;
+                                           border-bottom:3px solid #d1d1d1;}
+/* Thumb */
+.thumb                                    {text-align:center; width:auto;}
+.thumbtitle                               {background-color:#f9f9f9; border:1px solid #edecec; padding:3px;
+                                           margin-top:1px; color:#000;}
+.thumbtext                                {background-color:#f9f9f9; border:1px solid #edecec; padding:3px;
+                                           margin-top:2px; color:#909090;}
+.thumbcet                                 {background-color:#f9f9f9; padding:3px; color:#909090; height:100%;}
+/* Container */
+.time                                     {color:#8A8B8B; font-weight:normal;font-size:11px;}
+.tabletd                                  {margin:0px; padding:0px;height:100%;}
+.tablepadding                             {padding:0px;}
+.container                                {background:#fff;}
+.container_title                          {background-color:#F2F2F2;border-top:1px solid #dad9d9; color:#7B0000;font-size:13px; font-weight:normal; padding:5px 10px; line-height:15px;}
+.container_text                           {padding:10px; line-height:12px;line-height:14px;background:#fff;}
+.container_wait                           {margin:10px; padding:10px; background-color:#fff; line-height:14px;}
+.subcat                                   {padding:4px;}
+/* News */
+.news                                     {padding:10px 15px; background-color:#f0f0f0; text-align:right; font-weight:bold; color:#030303;}
+.newsone                                  {padding:5px 15px; background-color:#f0f0f0;}
+.newstwo                                  {padding:5px 15px; background-color:#f0f0f0;}
+.cats                                     {color:#000;padding:20px 0;background-color:#F0F0F0}
+#cat                                      {color:#000;}
+#cat a:link, #cat a:visited               {color:#606060;font-size:13px;}
+#cat a:hover                              {color:#7B0000;}
+.newslin                                  {padding:5px 15px; background-color:#f0f0f0;}
+/* Article */
+.article                                  {padding:10px 15px; background-color:#f0f0f0; text-align:right; font-weight:bold; color:#030303;}
+.articleone                               {padding:5px 15px; background-color:#f0f0f0;}
+.articletwo                               {padding:5px 15px; background-color:#f0f0f0;}
+.articlelin                               {padding:5px 15px; background-color:#f0f0f0;}
+/* Link */
+.link                                     {padding:10px 15px; background-color:#f0f0f0; text-align:right; font-weight:bold; color:#030303;}
+.linkone                                  {padding:5px 15px; background-color:#f0f0f0;}
+.linktwo                                  {padding:5px 15px; background-color:#f0f0f0;}
+.linklin                                  {background-color:#e0e0e0;height:2px;margin-top:10px;}
+/* Down */
+.downrows                                 {background-color:#ddd;}
+.downrowsone                              {padding:5px 15px; background-color:#f0f0f0;width:50%; border-bottom:1px solid #acacac;}
+#downrowstwo                              {background-color:#f0f0f0; padding:10px 5px 15px 5px;margin:0;}
+.downrowstwo                              {padding:5px 15px; background-color:#f0f0f0;width:50%; border-bottom:1px solid #acacac;}
+.down                                     {padding:5px; background-color:#f5f5f5; text-align:center; font-weight:bold; color:#030303;}
+.downone                                  {padding:5px 15px; background-color:#f0f0f0;}
+.downtwo                                  {padding:5px 15px; background-color:#f0f0f0;}
+.downlin                                  {padding:5px 15px; background-color:#f0f0f0;}
+/* Rating */
+.rating                                   {background-color:#ddd;}
+.ratingrows                               {background-color:#F9F9F9; line-height:25px; padding:5px;}
+/* Pollbar */
+div#poll                                  {padding:0 5px 0 15px;margin:0;}
+html>body div#poll                        {padding:0 5px 0 10px;margin:0;}
+.poll                                     {padding:2px;width:98%}
+html>body .poll                           {padding:2px;width:100%}
+.pollbar                                  {background-color:#000; height:10px;}
+.pollbarout                               {background-color:#fff; padding:2px; border:1px solid #ddd;}
+.pollline                                 {padding:2px;}
+/* News */
+.faq                                      {padding:10px 15px; background-color:#f0f0f0; text-align:right; font-weight:bold; color:#030303;}
+.faqone                                   {padding:5px 15px; background-color:#f0f0f0;}
+.faqtwo                                   {padding:5px 15px; background-color:#f0f0f0;}
+.faqlin                                   {background-color:#e0e0e0;height:2px;margin-top:10px;}
+/* Photos */
+.photos                                   {padding:10px 15px; background-color:#f0f0f0; text-align:right; font-weight:bold; color:#030303;}
+.photosone                                {padding:5px 15px; background-color:#f0f0f0;}
+.photostwo                                {padding:5px 15px; background-color:#f0f0f0;}
+.photoslin                                {padding:5px; background-color:#f0f0f0; text-align:center;}
+.photoswin                                {padding:3px 5px 3px 14px; text-align:left; font-size:13px;
+                                           background:#acacac;font-family:verdana,arial,sans-serif;
+                                           line-height:22px; font-weight:bold; color:#fff;border-bottom:0px solid #acacac}
+.redblock                                 {background-color:#fff;}
+.photosin                                 {display:inline; padding:2;}
+.photosod                                 {margin:2px; padding:2; }
+.photosit                                 {margin:2px; padding:2; border:double 3px #acacac;}
+.tableview                                {background-color:#fff; border:1px solid #ddd;}
+.tableod                                  {margin:5px; padding:5px;}
+.tablein                                  {margin:5px; padding:5px;}
+
+/* Closed */
+.closed                                   {border:5px; border-style:double; border-color:#a70000;
+                                           background-color:#F9F9F9;}
+.closedtext                               {padding:30px 30px; height:100%;color:#000;font-size:12px;line-height:18px;}
+/* Redirect */
+.redirect                                 {border:1px solid #090; background-color:#ffe;}
+.redirecttitle                            {border-bottom:1px solid #090; background-color:#ffe;
+                                           color:#B50206; padding:10px 10px 25px 10px; font-weight:bold;font-size:14; line-height:21px;}
+.redirecttext                             {color:#090;}
+.redirecttime                             {font-size:14; color:#B90000; font-weight:bold;
+                                           font-family:Arial,Tahoma,Verdana; text-align:center;}
+/* Calendar */
+.calendar                                 {width:100%; font-size:10px;border:1px solid #fff; border-collapse:separate; background-color:#fff;}
+.calendartitle                            {background-color:#ACACAC; font-size:10px; padding:2px; color:#fff}
+.calendarmonth                            {background-color:#E0E0E0; font-size:11px; padding:4px;}
+.calendarempty                            {background-color:#fff; font-size:11px; padding:4px;}
+.calendartoday                            {background-color:#ffe; font-size:11px; padding:3px; color:#ca0000;}
+.calendarallday                           {background-color:#fff; font-size:11px; padding:4px;}
+a.calendarlink:link,
+a.calendarlink:visited                    {color:#404040; text-decoration:none; font-weight:normal;}
+a.calendarlink:hover                      {color:#000; text-decoration:underline;}
+/* Debug */
+.debug                                    {overflow:auto; border:1px solid #C6C6C6; font-size:10px;
+                                           background-color:#f9f9f9; color:#A73C3C; margin:5px; padding:5px;
+                                           height:70px;}
+/* Error */
+.errortitle                               {background-color:#acacac; height:22px; padding:3px 15px;
+                                           line-height:22px; color:#000;
+                                           text-align:left;font-size:12px;}
+/* Hint */
+.hint                                     {background:#A7A6AB;
+                                           line-height:11px;
+                                           color:#fff;
+                                           width:auto;
+                                           z-index:1000;
+                                           margin:0px; padding:7px 14px; text-align:left; position:absolute; visibility:hidden;}
+
+/* ********************************************** */
+/* Danneo CMS Red Template © 2005 Danneo Team */
+/* ********************************************** */
+/*   This file is created Danneo CSS Visual Pro   */
+/* ********************************************** */
