@@ -52,7 +52,6 @@ end
 
 group :test do
   gem 'rspec-rails'
-  gem 'cucumber-rails', :require => false
   gem 'database_cleaner', :require => false
   gem 'turnip'
 end
