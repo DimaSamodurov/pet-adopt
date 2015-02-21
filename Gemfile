@@ -52,6 +52,7 @@ end
 
 group :test do
   gem 'rspec-rails'
+  gem 'capybara'
   gem 'database_cleaner', :require => false
   gem 'turnip'
 end
