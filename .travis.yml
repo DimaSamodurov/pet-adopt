@@ -1,6 +1,6 @@
 language: ruby
 cache: bundler
 rvm:
-  - ruby-head
+  - 2.2.0
 services:
   - mongodb
