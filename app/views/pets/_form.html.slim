@@ -1,7 +1,8 @@
 = form_for @pet do |f|
   - if @pet.errors.any?
     #error_explanation
-      h2= "# pluralize(@pet.errors.count, "error")  prohibited this pet from being saved:"
+      h2= pluralize(@pet.errors.count, 'error')
+        | prohibited this pet from being saved:
       ul
         - @pet.errors.full_messages.each do |msg|
           li= msg
