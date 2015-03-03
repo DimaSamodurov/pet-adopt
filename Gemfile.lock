@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/DimaSamodurov/refile-mongoid.git
-  revision: 609c1a91aaabb68af8ea9c5e084578e2a1df50bb
+  remote: git://github.com/DimaSamodurov/refile-mongoid.git
+  revision: 4c27fc920969f159c0def54e9cda6a65abc71577
   specs:
     refile-mongoid (0.0.1)
       mongoid (~> 4.0)
