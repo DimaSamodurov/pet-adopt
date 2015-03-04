@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/DimaSamodurov/refile-mongoid.git
+  remote: https://github.com/DimaSamodurov/refile-mongoid.git
   revision: 233c320daa68a1a2b9124cbc051e829f34ddaeb6
   specs:
     refile-mongoid (0.0.2)

@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "mini_magick"
 gem "refile", require: ["refile/rails", "refile/image_processing"]
-gem "refile-mongoid", "~> 0.0.2",  git: "git://github.com/DimaSamodurov/refile-mongoid.git"
+gem "refile-mongoid", "~> 0.0.2",  git: "https://github.com/DimaSamodurov/refile-mongoid.git"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
