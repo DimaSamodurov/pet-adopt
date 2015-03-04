@@ -250,7 +250,7 @@ DEPENDENCIES
   pry-rails
   rails (= 4.2.0)
   refile
-  refile-mongoid!
+  refile-mongoid (~> 0.0.2)!
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
