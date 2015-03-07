@@ -2,6 +2,8 @@ module PetSteps
 
   step 'в каталозі існує декілька тварин' do
     Pet.create name: 'Milly'
+    Pet.create name: 'Billi'
+    Pet.create name: 'Silli'
   end
 
   step 'ми відкрили сторінку тварин' do
