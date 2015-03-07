@@ -31,3 +31,5 @@ config/initializers/secret_token.rb
 bower.json
 
 .idea
+# backup files
+ *~
