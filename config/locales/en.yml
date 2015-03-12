@@ -21,3 +21,8 @@
 
 en:
   hello: "Hello world"
+
+  categories:
+    cats: 'Cats'
+    dogs: 'Dogs'
+    news: 'News'
