@@ -1,9 +1,20 @@
+require 'faker'
+
 FactoryGirl.define do
+
+  sequence :pet_sample do |n|
+    Faker::Pet.pets[n%Faker::Pet.pets.size]
+  end
+
   factory :pet do
-    name 'Венді'
-    description  'Метис мисливської породи веймаранер, має відмінний нюх,\
-                  слух і гарний голос. Самка, стерилізована та вакцинована. \
-                  Середнього розміру, короткошерстна. Весела та жартівлива. Телефон опікуна - 063-941-2518 Марина'
+    ignore do
+      sample { OpenStruct.new(generate :pet_sample) }
+    end
+
+    name          { sample.name }
+    description   { sample.description }
+    species       { sample.species }
+
     state :new
   end
 end
