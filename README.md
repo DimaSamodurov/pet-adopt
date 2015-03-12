@@ -40,11 +40,21 @@ https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
 
 Для старту проекту локально виконайте:
 
+        # створюємо каталог для проектів (одноразово)
         mkdir ~/code
         cd ~/code
+
+        # клонуємо репозиторій (одноразово)
         git clone git@github.com:DimaSamodurov/pet-adopt.git
+
+        # встановлюємо бібліотеки проекту (щоразу як бібліотеки змінились)
         cd pet-adopt
         bundle install
+
+        # Заповнюємо базу тестовими даними
+        rake db:seed
+
+        # Стартуємо локальний сервер
         rails s
 
 Відкрийте в браузері посилання http://localhost:3000 - ви маєте побачити працюючий проект.
