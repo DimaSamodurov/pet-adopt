@@ -37,11 +37,11 @@ end
 scraper = PetScraper.new
 
 dogs = scraper.parse 'dogs.html'
-dogs.map!{|dog|dog[:species] = :dog ; dog}
+dogs.map!{|dog|dog[:species] = :dogs ; dog}
 File.write 'dogs.yaml', dogs.to_yaml
 puts 'Dogs extracted to dogs.yaml'
 
 cats = scraper.parse 'cats.html'
-cats.map!{|cat|cat[:species] = :cat; cat}
+cats.map!{|cat|cat[:species] = :cats; cat}
 File.write 'cats.yaml', cats.to_yaml
 puts 'Cats extracted to dogs.yaml'
