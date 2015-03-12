@@ -51,7 +51,13 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  # Pry helps you debug application.
   gem 'pry-rails'
+  gem 'pry-byebug'
+  # FactoryGirl helps you build models with convenient defaults
+  gem 'factory_girl_rails'
+  # Faker gives you data for testing
+  gem 'faker'
 end
 
 group :test do
