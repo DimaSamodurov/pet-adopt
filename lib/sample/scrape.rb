@@ -7,7 +7,7 @@ require 'yaml'
 class PetScraper
 
   def parse(file_name)
-    doc = Nokogiri::HTML(File.open("dogs.html"))
+    doc = Nokogiri::HTML(File.open(File.join __dir__, file_name))
     items = doc.xpath('html/body/div[1]/table[2]/tbody/tr/td[2]/div[4]/div').map &:text
 
     pets = items.to_a.in_groups_of 4
@@ -20,8 +20,8 @@ class PetScraper
     {
         name: pet_array[0],
         description: pet_array[1],
-        post_date: parse_post_date(pet_array[2]),
-        publishing_date: parse_publishing_date(pet_array[2])
+        submitted_at: parse_post_date(pet_array[2]),
+        published_at: parse_publishing_date(pet_array[2])
     }
   end
 
@@ -37,11 +37,11 @@ end
 scraper = PetScraper.new
 
 dogs = scraper.parse 'dogs.html'
+dogs.map!{|dog|dog[:species] = :dog ; dog}
 File.write 'dogs.yaml', dogs.to_yaml
 puts 'Dogs extracted to dogs.yaml'
 
 cats = scraper.parse 'cats.html'
+cats.map!{|cat|cat[:species] = :cat; cat}
 File.write 'cats.yaml', cats.to_yaml
 puts 'Cats extracted to dogs.yaml'
-
-
