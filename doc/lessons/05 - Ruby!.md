@@ -51,6 +51,7 @@
 - [Metaprogramming in Ruby: It’s All About the Self](http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/)
  концепції рубі від відомого інженера Єхуди Кац.
 - [Онлай середовище для навчання Ruby](http://www.codecademy.com/en/tracks/ruby) - сайт містить цілий набір вірт. середовищ для навчання різних мов програмування і рубі в тому числі. Плюс там є середовища проектування і розробки "Make a Rails Application I" і "Make a Rails Application II", що дозволяють зрозуміти принципи розробки проектів на Rails-ах. І все безкоштовно)
+- [RubyMonk](https://rubymonk.com/) - Free, interactive tutorials to help you discover Ruby idioms, in your browser!
 
 
 
