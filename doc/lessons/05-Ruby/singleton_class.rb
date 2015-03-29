@@ -1,3 +1,5 @@
+require 'pry'
+
 class User
   attr_accessor :name
 
@@ -28,14 +30,12 @@ puts user3.admin?
 # Що, як? я, я не адмін? я співробітник СБУ, я маю бути адміном
 
 class SBUUser < User
-  def name
+  def admin?
     super || @name == 'Kapitan Grytsenko'
   end
 end
 
 user4 = SBUUser.new('Kapitan Grytsenko')
-
-### Another way
 
 module SBU
 
