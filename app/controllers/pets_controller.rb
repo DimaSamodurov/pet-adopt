@@ -15,10 +15,15 @@ class PetsController < ApplicationController
   # GET /pets/new
   def new
     @pet = Pet.new
+    @uploads = @pet.uploads
+    @upload = @pet.uploads.build
   end
 
   # GET /pets/1/edit
   def edit
+    @pet = Pet.find(params[:id])
+    @uploads = @pet.uploads
+    @upload = @pet.uploads.build
   end
 
   # POST /pets

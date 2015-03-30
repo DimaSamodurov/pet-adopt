@@ -16,11 +16,14 @@
   .field
     = f.label :state
     = f.text_field :state
-  .field
-    = f.attachment_field :picture
 
+  .images
+    = render @uploads
 
   .actions
     = f.submit 'Save'
 
-
+= form_for(@upload, html: { multipart: true, class: "dropzone"}) do |f|
+  .fallback
+    = f.file_field :image
+    = f.submit "Upload"
