@@ -8,5 +8,13 @@ class Pet
   field :breed,         type: String
   field :year_of_birth, type: Integer
 
-  attachment :picture
+  has_many :uploads, as: :uploadable
+
+  def images
+    uploads.map &:image
+  end
+
+  def image
+    images.first
+  end
 end

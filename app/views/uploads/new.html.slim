@@ -1,0 +1,7 @@
+.images
+  = render @uploads
+
+= form_for(@upload, html: { multipart: true, class: "dropzone"}) do |f|
+  .fallback
+    = f.file_field :image
+    = f.submit "Upload"
