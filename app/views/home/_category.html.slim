@@ -1,1 +1,4 @@
-li= link_to t(category.title, scope: 'categories') + "[#{category.count}]"
+.category
+  = link_to t(category.title, scope: 'categories') + "[#{category.count}]", pets_path(filter: category.name)
+  .top
+    = render partial: 'top_item', collection: category.top_items

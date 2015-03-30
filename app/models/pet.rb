@@ -9,12 +9,4 @@ class Pet
   field :year_of_birth, type: Integer
 
   has_many :uploads, as: :uploadable
-
-  def images
-    uploads.map &:image
-  end
-
-  def image
-    images.first
-  end
 end

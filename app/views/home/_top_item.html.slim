@@ -1,0 +1,4 @@
+.top_item
+  /= top_item.name
+  - if top_item.uploads.any?
+    = image_tag attachment_url(top_item.uploads.first, :image, :fill, 100, 100, format: "jpg")

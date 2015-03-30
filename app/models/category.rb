@@ -10,8 +10,16 @@ class Category
     I18n.translate(name, scope: 'categories')
   end
 
+  def scope
+    Pet.where(species: name)
+  end
+
   def count
-    Pet.where(species: name).count
+    scope.count
+  end
+
+  def top_items(limit: 5)
+    scope.limit(limit)
   end
 
   def to_partial_path
