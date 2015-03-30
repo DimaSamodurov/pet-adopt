@@ -23,7 +23,7 @@ class PetScraper
     hash = {
         name: pet_array[0].text,
         description: pet_array[1].text,
-        image_name: image_path,
+        image_path: image_path,
         submitted_at: parse_post_date(pet_array[2].text),
         published_at: parse_publishing_date(pet_array[2].text)
     }

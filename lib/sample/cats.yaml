@@ -2,7 +2,7 @@
 - :name: "Руді дорослі коти (1)"
   :description: "Троє\n дорослих рудих котів шукають господарів. На тимчасовій перетримці
     в \nпритулку \"Милосердя\". Контактний телефон: 243 41 53, 067 67 53 541 Ксеня"
-  :image_name: cats_files/1k.jpg
+  :image_path: cats_files/1k.jpg
   :submitted_at: 2015-01-26
   :published_at: 2015-01-26
   :species: :cats
@@ -10,7 +10,7 @@
   :description: "Пухнаста\n смугасто-біла киця, вік біля 2 років, надзвичайно потребує
     домівки, так\n як не є забрана з вулиці. З ветоглядом та стерилізацією допоможуть.
     \nКонтактний телефон: 097 297 2907"
-  :image_name: cats_files/4k.jpg
+  :image_path: cats_files/4k.jpg
   :submitted_at: 2015-01-26
   :published_at: 2015-01-26
   :species: :cats
@@ -18,21 +18,21 @@
   :description: "Молоденька 1.5 року, товстенька розумна кішечка з щасливим триколірним
     окрасом. Стерилізована, вакцинована, вихована.Контактний тел. 067-878-57-05, 063-072-50-39
     Ліда"
-  :image_name: cats_files/manjka.jpg
+  :image_path: cats_files/manjka.jpg
   :submitted_at: 2015-01-29
   :published_at: 2015-01-29
   :species: :cats
 - :name: "Чорно-білий кіт (5)"
   :description: "Кіт, 2 роки, ласкавий до людей, з іншими тваринами не сходиться,
     підійде для проживання у селі. Контактний телефон: 0981956577"
-  :image_name: cats_files/5k.jpg
+  :image_path: cats_files/5k.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
 - :name: "Молода смугаста кішка (7)"
   :description: "Ласкава\n та ніжна, класичного окрасу \"матроскін\" 5-місячна кішечка.
     Привчена до \nлотка, стерилізована. Контактний телефон: 067 395 00 90"
-  :image_name: cats_files/7k.jpg
+  :image_path: cats_files/7k.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
@@ -42,7 +42,7 @@
     від паразитів, чистенький, привчений до лотка, кастрований. \nЛагідний і грайливий
     котик хоче бути єдиним улюбленцем, не дуже добре \nпереносить сусідство з іншими
     котами. Контактний телефон 0976496147 \nОлена"
-  :image_name: cats_files/junior.jpg
+  :image_path: cats_files/junior.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
@@ -51,21 +51,21 @@
     нам \nвдруге. Вже рік кіт знаходиться на перетримці у невеличкій кімнаті, бо \nпоряд
     в квартирі постійно є собаки з якими кіт ворогує. Дуже ласкаве \nстворіння. Кастрований.
     Контактний телефон: 063 1471891 Адель"
-  :image_name: cats_files/8k.jpg
+  :image_path: cats_files/8k.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
 - :name: "Біло-сіра кішка (11)"
   :description: "Молода, чарівна, пухнаста, біло-сіра кішечка. Знаходиться в Сокільниках.
     Контактний телефон: 093 43 43 756"
-  :image_name: cats_files/11k.jpg
+  :image_path: cats_files/11k.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
 - :name: "Триколірні кішечки (12)"
   :description: "Молоді, триколірні кішечки. Знаходяться в Сокільниках. Контактний
     телефон: 093 43 43 756"
-  :image_name: cats_files/12k.jpg
+  :image_path: cats_files/12k.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
@@ -73,14 +73,14 @@
   :description: "Дуже добра та ласкава муркотуха. Стерилізована. Вік біля 1 року.
     Привчена до лотка. Оброблена від паразитів. Контактний телефон: 097 288 73 63
     Ірина"
-  :image_name: cats_files/masja.jpg
+  :image_path: cats_files/masja.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
 - :name: "Чорна пухнаста киця (13)"
   :description: "Кішечка стерилізована, вік близько півроку, ласкава і добра, привчена
     до лотка. Контактний телефон: 097 288 73 63"
-  :image_name: cats_files/13k.jpg
+  :image_path: cats_files/13k.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
@@ -88,14 +88,14 @@
   :description: "1\n рік, ласкавий, ручний, діловитий. Стерильний. До лоточка привчений.
     \nКотик з перетримки, де є дуже велика кількість тваринок. Контактний \nтелефон:
     093 624 2473 Марія"
-  :image_name: cats_files/kuskus.jpg
+  :image_path: cats_files/kuskus.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
 - :name: "Біло-сірий кіт (14)"
   :description: "Котик з перетримки, де є дуже велика кількість тваринок. Контактний
     телефон: 093 624 2473 Марія"
-  :image_name: cats_files/14k.jpg
+  :image_path: cats_files/14k.jpg
   :submitted_at: 2015-01-30
   :published_at: 2015-01-30
   :species: :cats
@@ -103,21 +103,21 @@
   :description: "Молоденька\n триколірна киця. Приблизний вік 1 рік. Чемна, акуратна,
     до лотка \nпривчена, комунікабельна, жвава, грайлива. Стерилізована. Контактний
     \nтелефон: 098 19 56 577, 066 37 20 964 Наталія"
-  :image_name: cats_files/15k.jpg
+  :image_path: cats_files/15k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
 - :name: "Чорна кішка (16)"
   :description: "Чорна граційна киця. Приблизний вік 7 міс. Контактний телефон: 098
     19 56 577, 066 37 20 964 Наталія"
-  :image_name: cats_files/16k.jpg
+  :image_path: cats_files/16k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
 - :name: "Кішка, чекрепаховий окрас (17)"
   :description: "Лагідна, трішки ляклива, черепахового окрасу кішечка. Вік 3 місяці.
     Контактний телефон: 098 19 56 577, 066 37 20 964 Наталія"
-  :image_name: cats_files/17k.jpg
+  :image_path: cats_files/17k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
@@ -126,21 +126,21 @@
     шубкою, \nвеликі, довірливі оченята,  ніжна, дуже ручна. Господар - \nстаренький
     дідусь - потрапив у лікарню, за тваринкою нема кому \nподбати. Контактний телефон:
     097 45 15 283 Олена"
-  :image_name: cats_files/18k.jpg
+  :image_path: cats_files/18k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
 - :name: "Вася"
   :description: "Спокійний, лагідний кіт зараз знаходиться на перетримці і шукає постійний
     дім. Контактний телефон: 067 95 62 829 Ліда"
-  :image_name: cats_files/vasja.jpg
+  :image_path: cats_files/vasja.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
 - :name: "Двоколірне кошеня (19)"
   :description: "Кішечка, вік десь три місяці, здорова, хороший характер. Контактний
     телефон:  093 81 57 498 Сергій"
-  :image_name: cats_files/19k.jpg
+  :image_path: cats_files/19k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
@@ -148,7 +148,7 @@
   :description: "Надзвичайної\n краси кошенятко - мордочка темно-сіра, сам світліший,
     пухнастий. \nХлопчик, близько 4 місяців, живе на підприємстві. Контактний телефон:
     \n067 45 82 182 Анатолій"
-  :image_name: cats_files/20k.jpg
+  :image_path: cats_files/20k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
@@ -158,14 +158,14 @@
     носочками, білою маніжкою та карими очима (на фото). Другий \nбежевий з білими
     \"носочками\", білою маніжкою та зеленими очима. \nКонтактний телефон: 067 79
     71 424 Оксана"
-  :image_name: cats_files/21k.jpg
+  :image_path: cats_files/21k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
 - :name: "Чорно-біла кішка (22)"
   :description: "Дуже ніжна та лагідна киця. Її сестричку прилаштували і вона сумує.
     Контактний телефон: 098 19 56 577, 066 37 20 964 Наталія"
-  :image_name: cats_files/22k.jpg
+  :image_path: cats_files/22k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
@@ -173,14 +173,14 @@
   :description: "Вік\n 1 рік. Забарвлення у киці рідкісне - чотири кольори. Стерелізована,
     \nвакцинована, ходить у лоточок, лагідна. Контактний телефон: 098 19 56 \n577,
     066 37 20 964 Наталія"
-  :image_name: cats_files/23k.jpg
+  :image_path: cats_files/23k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
 - :name: "Біло-чорне кошеня (24)"
   :description: "Дівчинка,\n 3-4 місяці. Грайлива, лагідна, акуратна, до лотка привчена,
     від бліх \nоброблена. Контактний телефон: 098 19 56 577, 066 37 20 964 Наталія"
-  :image_name: cats_files/24k.jpg
+  :image_path: cats_files/24k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
@@ -188,14 +188,14 @@
   :description: "Спокійний,\n добрий, чемний, тягнеться до людей. Змушений жити на
     вулиці. Вік - \nприблизно  9 місяців. Бажаючим взяти цього красеня гарантують
     \nоплату кастрації + в подарунок лоточок. Контактний телефон: 096 270 61 60 Віка"
-  :image_name: cats_files/25k.jpg
+  :image_path: cats_files/25k.jpg
   :submitted_at: 2015-02-02
   :published_at: 2015-02-02
   :species: :cats
 - :name: "Кішечка мраморного окрасу (26)"
   :description: "Дівчинка,\n приблизний вік 3-4 місяці, у лоточок ходить чемно. Мраморний
     окрас, \nмуркотлива. Контактний телефон: 098 19 56 577, 066 37 20 964 Наталія"
-  :image_name: cats_files/26k.jpg
+  :image_path: cats_files/26k.jpg
   :submitted_at: 2015-02-03
   :published_at: 2015-02-03
   :species: :cats
@@ -204,21 +204,21 @@
     Зараз \nморози, киця на вулиці мерзне днями і ночами. Кішка дуже лагідна та \nприємна,
     вона дуже хоче знайти люблячу сім\"ю, адже таке тендітне \nстворіння просто загине
     на вулиці. Контактний номер 063 21 51 612"
-  :image_name: cats_files/27k.jpg
+  :image_path: cats_files/27k.jpg
   :submitted_at: 2015-02-04
   :published_at: 2015-02-04
   :species: :cats
 - :name: "Триколірна кішка (28)"
   :description: "Дівчинка-красуня, при потребі допоможуть у фінансуванні стерилізації!
     Контактний телефон: 063 21 39 119"
-  :image_name: cats_files/28k.jpg
+  :image_path: cats_files/28k.jpg
   :submitted_at: 2015-02-04
   :published_at: 2015-02-04
   :species: :cats
 - :name: "Кошеня (29)"
   :description: '4 місяці, хлопчик, м''якенька шубка, привітний та допитливий характер.
     Контактний телефон: 098 19 56 577, 066 37 20 964 Наталія'
-  :image_name: cats_files/29k.jpg
+  :image_path: cats_files/29k.jpg
   :submitted_at: 2015-02-06
   :published_at: 2015-02-06
   :species: :cats
@@ -227,7 +227,7 @@
     ручні, \nпрагнуть спілкування з людиною. Їдять сухий корм, користуються лоточком,\n
     обіцяють стати зразковими домашніми улюбленцями. Знаходяться на \nперетримці.
     Контактний телефон: 067 776 88 80 Олена"
-  :image_name: cats_files/30k.jpg
+  :image_path: cats_files/30k.jpg
   :submitted_at: 2015-02-08
   :published_at: 2015-02-08
   :species: :cats
@@ -235,7 +235,7 @@
   :description: "Хлопчик,\n 8 місяців, вакцинований (з довідкою), кастрований, круглощокий,
     \nдоглянутий. Зараз на перетримці. Контактний телефон: 067 878 57 05, 063 \n072
     50 39 Ліда"
-  :image_name: cats_files/majki.jpg
+  :image_path: cats_files/majki.jpg
   :submitted_at: 2015-02-08
   :published_at: 2015-02-08
   :species: :cats
@@ -243,7 +243,7 @@
   :description: "Близько\n 8 міс., вакциновані (з довідками), вже кастровані, чистенькі,
     вміють \nкористуватись усіма котячими девайсами. Контактний телефон: 067 878 57
     \n05, 063 072 50 39 Ліда"
-  :image_name: cats_files/31k.jpg
+  :image_path: cats_files/31k.jpg
   :submitted_at: 2015-02-08
   :published_at: 2015-02-08
   :species: :cats
@@ -252,7 +252,7 @@
     носик і круглі\n оченята. За віком десь місяці 4. Лагідний, знає лоточок. Кастрація,
     \nвакцинація майбутньому господарю в подарунок. Контактний телефон: 067 \n878
     57 05, 063 072 50 39 Ліда"
-  :image_name: cats_files/32k.jpg
+  :image_path: cats_files/32k.jpg
   :submitted_at: 2015-02-08
   :published_at: 2015-02-08
   :species: :cats
@@ -261,7 +261,7 @@
     муркотливий і \nчемний. Прибився до одного з під\"їздів, де живуть недобрі люди,
     і довго \nце не триватиме. Майбутньому господарю - компенсація вартості огляду
     \nветеринара. Контактний телефон: 096 55 89 210 Оксана"
-  :image_name: cats_files/33k.jpg
+  :image_path: cats_files/33k.jpg
   :submitted_at: 2015-02-08
   :published_at: 2015-02-08
   :species: :cats
@@ -269,7 +269,7 @@
   :description: "Особливий\n котик, хворий на епілепсію, припадки трапляються кілька
     раз на рік. \nХороший, ласкавий котик. Молодий - приблизно 1 рік, кастрований.
     Ірина \n097 288 73 63"
-  :image_name: cats_files/ozi.jpg
+  :image_path: cats_files/ozi.jpg
   :submitted_at: 2015-02-08
   :published_at: 2015-02-08
   :species: :cats
