@@ -7,7 +7,7 @@ FactoryGirl.define do
   end
 
   factory :pet do
-    ignore do
+    transient do
       sample { OpenStruct.new(generate :pet_sample) }
     end
 
@@ -16,5 +16,14 @@ FactoryGirl.define do
     species       { sample.species }
 
     state :new
+
+    after(:create) do |pet, evaluator|
+      if evaluator.sample.image_path
+        file_path = File.join(Rails.root, 'lib/sample', evaluator.sample.image_path)
+        File.open(file_path, 'rb') do |file|
+          pet.uploads.create(image: file)
+        end
+      end
+    end
   end
 end
