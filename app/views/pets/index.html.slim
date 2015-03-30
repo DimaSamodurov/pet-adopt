@@ -17,7 +17,7 @@ table
         td= pet.name
         td= pet.description
         td= pet.state
-        td= image_tag attachment_url(pet, :picture, :fill, 300, 300, format: "jpg")
+        td= image_tag attachment_url(pet.uploads.first, :image, :fill, 100, 100, format: "jpg") if pet.uploads.any?
         td= link_to 'Деталі', pet
         td= link_to 'Редагувати', edit_pet_path(pet)
         td= link_to 'Знищити', pet, :method => :delete, :data => confirm=('Ви впевнені?')
