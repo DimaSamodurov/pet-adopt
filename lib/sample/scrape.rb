@@ -8,7 +8,7 @@ class PetScraper
 
   def parse(file_name)
     doc = Nokogiri::HTML(File.open(File.join __dir__, file_name))
-    items = doc.xpath('html/body/div[1]/table[2]/tbody/tr/td[2]/div[4]/div').map &:text
+    items = doc.xpath('html/body/div[1]/table[2]/tbody/tr/td[2]/div[4]/div')
 
     pets = items.to_a.in_groups_of 4
     pets.map{|pet| to_hash pet }
@@ -17,12 +17,18 @@ class PetScraper
   private
 
   def to_hash(pet_array)
-    {
-        name: pet_array[0],
-        description: pet_array[1],
-        submitted_at: parse_post_date(pet_array[2]),
-        published_at: parse_publishing_date(pet_array[2])
+    image_path = pet_array[1].child.child.attr('src')
+    image_name = File.basename(image_path) if image_path
+
+    hash = {
+        name: pet_array[0].text,
+        description: pet_array[1].text,
+        image_name: image_path,
+        submitted_at: parse_post_date(pet_array[2].text),
+        published_at: parse_publishing_date(pet_array[2].text)
     }
+
+    hash
   end
 
   def parse_post_date(string)
