@@ -46,3 +46,5 @@ https://cukes.info/gherkin.html
 
 [You're Cuking It Wrong](http://www.elabs.se/blog/15-you-re-cuking-it-wrong) - Advise how to write scenarios from a great engineer.
 "I still find it beneficial to jump out of the code writing mode for describing the behaviour of the application." - Jonas Nicklas.
+
+["Экстремальное программирование, знакомство с Behavior Driven Development и RSpec"](http://habrahabr.ru/post/52929/) - Коротенька стаття на habrahabr.ru з описом BDD в кінці якої є корисні лінки для глибшого вивчення.
