@@ -1,0 +1,18 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @book.name
+p
+  strong Author:
+  = @book.author
+p
+  strong Annotation:
+  = @book.annotation
+p
+  strong Genre:
+  = @book.genre
+
+= link_to 'Редагувати', edit_book_path(@book)
+'|
+= link_to 'Назад', books_path
