@@ -17,6 +17,5 @@
 
 ### Література
 
-- [File Uploads With Refile Gorails Screencast](https://gorails.com/episodes/file-uploads-with-refile) - Приклад завантаження файлів з допомогою Refile.
-- [Upload With Progress Bar](https://github.com/excid3/gorails-episode-36/tree/refile-js) - Upload with Progress bar example.
+- [File Uploads With Refile Screencast](https://gorails.com/episodes/file-uploads-with-refile) - Приклад завантаження файлів з допомогою Refile.
 - [Ajax File Upload in Rails using Dropzone + Carrierwave](http://sudharti.github.io/articles/dropzone-rails/) - Приклад завантаження багатьох файлів із попереднім переглядом.
