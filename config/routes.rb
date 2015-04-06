@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  resources :books
-  get 'books/change_menu_item/:id' => 'books#change_menu_item', as: :change_menu_item
-
   resources :pets
   resources :uploads
 
