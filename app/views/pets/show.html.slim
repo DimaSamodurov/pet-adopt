@@ -4,11 +4,17 @@ p
   b Name:
   = @pet.name
 p
+  b State:
+  = @pet.breed
+p
   b Description:
   = @pet.description
 p
   b State:
   = @pet.state
+p
+  b Age (month):
+  = (Date.today.year * 12 + Date.today.month) - (@pet.date_of_birth.year * 12 + @pet.date_of_birth.month)
 
 = link_to 'Edit', edit_pet_path(@pet)
 | \|
