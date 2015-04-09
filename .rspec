@@ -1,0 +1,4 @@
+--color
+--format doc
+-r turnip/rspec
+
