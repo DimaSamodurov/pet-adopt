@@ -46,6 +46,7 @@
 - [Сайт мови Ruby](https://www.ruby-lang.org/en/) - містить посилання на документацію, уроки, новини.
 - [Ruby - Стисло](http://zenspider.com/Languages/Ruby/QuickRef.html) - 
  не допоможе зрозуміти мову, але допоможе побачити що іще ви не знаєте :)
+- [Awesome Ruby](http://awesome-ruby.com/) - опис бібліотек що найчастіше використовуються.
 - [Документація](http://rubyinstaller.org/downloads/) - 
  документація у форматі .chm - зручна для офлайн перегляду і пошуку.
 - [Metaprogramming in Ruby: It’s All About the Self](http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/)
