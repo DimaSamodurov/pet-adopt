@@ -23,7 +23,7 @@
   .actions
     = f.submit 'Save'
 
-= form_for(@upload, html: { multipart: true, class: "dropzone"}) do |f|
+= form_for(@upload, url: '/attachments/cache', html: { multipart: true, class: "dropzone"}) do |f|
   .fallback
     = f.file_field :image
-    = f.submit "Upload"
+

@@ -8,7 +8,7 @@ $(document).ready(function () {
         maxFilesize: 1,
         // changed the passed param to one accepted by
         // our rails app
-        paramName: "upload[image]",
+        paramName: "file",
         // show remove links on each image upload
         addRemoveLinks: true,
         // if the upload was successful
@@ -27,7 +27,7 @@ $(document).ready(function () {
             // make a DELETE ajax request to delete the file
             $.ajax({
                 type: 'DELETE',
-                url: '/uploads/' + id,
+                url: '/attachments/' + id,
                 success: function (data) {
                     console.log(data.message);
                 }
