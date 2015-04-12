@@ -14,6 +14,7 @@ FactoryGirl.define do
     name          { sample.name }
     description   { sample.description }
     species       { sample.species }
+    date_of_birth { Date.new(2015,3,1) }
 
     state :new
 

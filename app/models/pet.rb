@@ -6,7 +6,7 @@ class Pet
   field :state,         type: String
   field :species,       type: String
   field :breed,         type: String
-  field :year_of_birth, type: Integer
+  field :date_of_birth, type: Date
 
   has_many :uploads, as: :uploadable
 end

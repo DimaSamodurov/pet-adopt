@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Pet.delete_all
 60.times do
   FactoryGirl.create :pet
 end
