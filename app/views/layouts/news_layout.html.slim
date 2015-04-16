@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    meta content=("text/html; charset=UTF-8") http-equiv="Content-Type" /
+    title= content_for?(:title) ? yield(:title) : "Прилаштування тварин"
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'vendor/modernizr'
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  body
+    link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css" /
+    header
+      h1 NEWS NEWS NEWS
+      = render 'header'
+    = yield
+    footer
+      = render 'footer'

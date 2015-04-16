@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  #resources :news
+  get '/news' => 'news#list'
+
   resources :pets
   resources :uploads
 
