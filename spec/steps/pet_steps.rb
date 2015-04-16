@@ -30,6 +30,18 @@ module PetSteps
     expect(page).to have_content @pet.breed
   end
 
+  step 'в каталозі тварин конкретного виду не існує жодної тварини' do
+    Pet.delete_all
+  end
+
+  step 'ми знаходимося на головній сторінці' do
+    visit '/'
+  end
+
+  step 'така група тварин не відображається взагалі' do
+    expect(page).to have_no_content '[0]'
+  end
+
 end
 
 RSpec.configure { |c| c.include PetSteps }
