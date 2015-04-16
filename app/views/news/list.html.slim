@@ -1,0 +1,17 @@
+h1 Listing news
+
+table.news-list
+  thead
+    tr
+      th Text
+      th Created at
+
+  tbody
+    - @news.each do |news|
+      tr.news-line
+        td = news.text
+        td = news.created_at
+
+
+
+
