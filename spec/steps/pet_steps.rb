@@ -42,6 +42,36 @@ module PetSteps
     expect(page).to have_no_content '[0]'
   end
 
+  step 'обраємо "Подати оголошення"' do
+    find('.large-8.columns.about-content').click_link('Подати оголошення')
+  end
+
+  step 'я маю бачити картку тварини' do
+    expect(current_path).to eq(new_pet_path)
+  end
+
+  step 'я заповнив поля картки тварини' do
+    fill_in 'pet_name', :with => 'Tom'
+    fill_in 'pet_description', :with => 'Super cat'
+    fill_in 'pet_state', :with => 'new'
+    select('Коти', :from => 'pet_species')
+    fill_in 'pet_breed', :with => 'pers'
+  end
+
+  step 'натиснув "Подати Оголошення"' do
+    click_button 'Подати Оголошення'
+  end
+
+  step 'перейшовши на перелік тварин' do
+    visit pets_path
+  end
+
+  step 'я маю побачити це оголошення' do
+    expect(page).to have_content 'Tom'
+    expect(page).to have_content 'Super cat'
+    expect(page).to have_content 'new'
+  end
+
 end
 
 RSpec.configure { |c| c.include PetSteps }
