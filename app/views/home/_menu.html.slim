@@ -1,0 +1,7 @@
+ul
+  - @categories.each do |category|
+    - if category.count > 0
+      li= link_to t(category.name, scope: 'categories') + " [#{category.count}]", pets_path(filter: category.name)
+    - else
+      li= link_to t(category.name, scope: 'categories') + " [#{0}]", news_path
+
