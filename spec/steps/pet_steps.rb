@@ -51,11 +51,11 @@ module PetSteps
   end
 
   step 'я заповнив поля картки тварини' do
-    fill_in 'pet_name', :with => 'Tom'
-    fill_in 'pet_description', :with => 'Super cat'
-    fill_in 'pet_state', :with => 'new'
-    select('Коти', :from => 'pet_species')
-    fill_in 'pet_breed', :with => 'pers'
+    fill_in 'pet_name', with: 'Tom'
+    fill_in 'pet_description', with: 'Super cat'
+    fill_in 'pet_state', with: 'new'
+    select('Коти', from: 'pet_species')
+    fill_in 'pet_breed', with: 'pers'
   end
 
   step 'натиснув "Подати Оголошення"' do
@@ -67,9 +67,9 @@ module PetSteps
   end
 
   step 'я маю побачити це оголошення' do
-    expect(page).to have_content 'Tom'
-    expect(page).to have_content 'Super cat'
-    expect(page).to have_content 'new'
+    expect(find('.pet-list')).to have_content 'Tom'
+    expect(find('.pet-list')).to have_content 'Super cat'
+    expect(find('.pet-list')).to have_content 'new'
   end
 
 end
