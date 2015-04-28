@@ -14,7 +14,8 @@ p
   = @pet.state
 p
   b Age (month):
-  = (Date.today.year * 12 + Date.today.month) - (@pet.date_of_birth.year * 12 + @pet.date_of_birth.month)
+  -if @pet.date_of_birth?
+    = (Date.today.year * 12 + Date.today.month) - (@pet.date_of_birth.year * 12 + @pet.date_of_birth.month)
 
 = link_to 'Edit', edit_pet_path(@pet)
 | \|

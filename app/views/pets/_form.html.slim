@@ -12,16 +12,26 @@
     = f.text_field :name
   .field
     = f.label :description
-    = f.text_field :description
+    = f.text_area :description
   .field
     = f.label :state
     = f.text_field :state
+  .field
+    = f.label :species
+    = f.collection_select( :species, ['Коти','Собаки'], :to_s, :to_s, {prompt: false,})
+    
+  .field
+    = f.label :breed
+    = f.text_field :breed
+  //.field
+    //= f.label :date_of_birth
+    //= f.date_select(:date_of_birth, :order => [:month, :day, :year])
 
   .images
     = render @uploads
 
   .actions
-    = f.submit 'Save'
+    = f.submit 'Подати Оголошення'
 
 = form_for(@upload, url: '/attachments/cache', html: { multipart: true, class: "dropzone"}) do |f|
   .fallback
