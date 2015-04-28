@@ -6,6 +6,16 @@ module PetSteps
     Pet.create name: 'Silli'
   end
 
+  step 'в каталозі існує декілька котів' do
+    Pet.create name: 'Lolli', species: 'cats'
+    Pet.create name: 'Molli', species: 'cats'
+  end
+
+  step 'декілька псів' do
+    Pet.create name: 'Chuck', species: 'dogs'
+    Pet.create name: 'Chack', species: 'dogs'
+  end
+
   step 'ми відкрили сторінку тварин' do
     visit '/pets'
   end
