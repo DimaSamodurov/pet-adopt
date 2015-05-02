@@ -5,7 +5,9 @@ module NewsSteps
   end
 
   step 'декілька новин' do
-    FactoryGirl.create_list :news, 5
+    News.create text: 'Milly'
+    News.create text: 'Billi'
+    News.create text: 'Silli'
   end
 
   step 'ми відкрили сторінку новин' do

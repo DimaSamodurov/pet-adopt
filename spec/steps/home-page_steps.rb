@@ -4,9 +4,12 @@ module HomePageSteps
     visit '/'
   end
 
-  step 'в навігаційному меню я хочу бачити посилання на розділи' do
-    Category.all.each do |category|
-      expect(page).to have_link category.name
+  step 'в навігаційному меню я хочу бачити посилання на розділи:' do |categories|
+    #Category.all.each do |category|
+    categories.each do |category|
+      within(".large-4.columns") do
+        find_link(category[0]).visible?
+      end
     end
   end
 
