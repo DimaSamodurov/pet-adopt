@@ -14,6 +14,13 @@ module HomePageSteps
   end
 
   step 'ми маємо бачити кількість елементів у відповідному розділі' do
+    Category.all.each do |category|
+      within(".large-4.columns") do
+        if category.count > 0
+          expect(page).to have_content category.count.to_s
+        end
+      end
+    end
   end
 
 end
