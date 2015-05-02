@@ -14,7 +14,7 @@ module PetSteps
   end
   step 'всі тварини мають бути у списку' do
     Pet.all.each do |pet|
-      expect(page).to have_content pet.nam
+      expect(page).to have_content pet.name
     end
   end
   step 'існує заповнена картка тварини' do
