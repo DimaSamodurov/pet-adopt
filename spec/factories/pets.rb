@@ -15,6 +15,9 @@ FactoryGirl.define do
     description   { sample.description }
     species       { sample.species }
     date_of_birth { Date.new(2015,3,1) }
+    sex           {"male"} 
+    size          {"medium"}   
+    breed         {"chihuahua"}
 
     state :new
 

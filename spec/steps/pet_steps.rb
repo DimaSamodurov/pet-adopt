@@ -1,21 +1,22 @@
 module PetSteps
 
   step 'в каталозі існує декілька тварин' do
-    Pet.create name: 'Milly'
-    Pet.create name: 'Billi'
-    Pet.create name: 'Silli'
+    #@pets  = [ Pet.create(name: 'Milly'),
+    #           Pet.create(name: 'Billi'), 
+    #           Pet.create(name: 'Silli')
+    #         ]
+    @pets = FactoryGirl.create_list :pet, 3
+
   end
 
   step 'ми відкрили сторінку тварин' do
     visit '/pets'
   end
-
   step 'всі тварини мають бути у списку' do
     Pet.all.each do |pet|
-      expect(page).to have_content pet.name
+      expect(page).to have_content pet.nam
     end
   end
-
   step 'існує заповнена картка тварини' do
     @pet = FactoryGirl.create :pet
   end
@@ -70,6 +71,20 @@ module PetSteps
     expect(find('.pet-list')).to have_content 'Tom'
     expect(find('.pet-list')).to have_content 'Super cat'
     expect(find('.pet-list')).to have_content 'new'
+  end
+   
+  step 'опис кожної тварини має містити породу, розмір, стать та вік' do
+    within '.pet-list' do
+      @pets.each do |item|
+        within find(:xpath, "//*[@data-pet_id='#{item.id}']") do
+          expect(page).to have_content item.breed
+          #  expect(page).to have_content item.date_of_birth
+          expect(item.sex).to be_present
+          expect(page).to have_content item.sex
+          expect(page).to have_content item.size      
+	end
+      end
+    end
   end
 
 end
