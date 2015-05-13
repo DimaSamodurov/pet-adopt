@@ -1,0 +1,9 @@
+-# add navigation links to this file
+- if user_signed_in?
+    li = link_to 'Налаштування', edit_user_registration_path
+    li = link_to 'Вийти', destroy_user_session_path, :method=>'delete'
+- else
+    li = link_to 'Увійти', new_user_session_path
+    li = link_to 'Зареєструватись', new_user_registration_path
+- if user_signed_in?
+    li = link_to 'Користувачі', users_path
