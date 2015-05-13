@@ -10,7 +10,10 @@ html
   body
     link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css" /
     header
+      = render 'layouts/navigation'
       = render 'header'
-    = yield
+    main
+      = render 'layouts/messages'
+      = yield
     footer
       = render 'footer'
