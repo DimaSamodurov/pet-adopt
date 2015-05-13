@@ -68,3 +68,6 @@ group :test do
   gem 'database_cleaner', :require => false
   gem 'turnip'
 end
+
+#for login & users
+gem 'devise'
