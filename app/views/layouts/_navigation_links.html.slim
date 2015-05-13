@@ -1,6 +1,6 @@
 -# add navigation links to this file
 - if user_signed_in?
-    li = link_to 'Налаштування', edit_user_registration_path
+    li = link_to current_user.name, edit_user_registration_path
     li = link_to 'Вийти', destroy_user_session_path, :method=>'delete'
 - else
     li = link_to 'Увійти', new_user_session_path
