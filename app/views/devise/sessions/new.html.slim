@@ -18,3 +18,10 @@
           label
             = f.check_box :remember_me
             span  Запамятайте мене
+    fieldset
+      p Або увійдіть з допомогою:
+      .form-group
+        ul
+          li
+            img src="ico01.png" width="16" height="16"/
+            = link_to "Facebook", user_omniauth_authorize_path(:facebook)

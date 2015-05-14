@@ -15,3 +15,10 @@
       = f.label :Підтвердіть_пароль
       = f.password_field :password_confirmation, class: 'form-control'
     = f.submit 'Зареєструватись', :class => 'button right'
+    fieldset
+      p Або зареєструватись з допомогою:
+      .form-group
+        ul
+          li
+            img src="ico01.png" width="16" height="16"/
+            = link_to "Facebook", user_omniauth_authorize_path(:facebook)
