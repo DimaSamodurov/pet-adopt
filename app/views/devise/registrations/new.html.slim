@@ -18,7 +18,4 @@
     fieldset
       p Або зареєструватись з допомогою:
       .form-group
-        ul
-          li
-            img src="ico01.png" width="16" height="16"/
-            = link_to "Facebook", user_omniauth_authorize_path(:facebook)
+        = link_to image_tag("facebook.png", :border => 0), user_omniauth_authorize_path(:facebook)
