@@ -1,0 +1,10 @@
+-# navigation styled for Zurb Foundation 5
+nav class="top-bar"
+  data-topbar
+  ul class="title-area"
+    li class="name" = link_to 'Головна', root_path
+    li class="toggle-topbar menu-icon"
+      a href="#" Меню
+  .top-bar-section
+    ul
+      = render 'layouts/navigation_links'

@@ -68,3 +68,9 @@ group :test do
   gem 'database_cleaner', :require => false
   gem 'turnip'
 end
+
+#for login & users
+gem 'devise'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-github', :github => 'intridea/omniauth-github'

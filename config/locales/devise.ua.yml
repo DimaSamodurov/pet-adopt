@@ -1,0 +1,60 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+ua:
+  devise:
+    confirmations:
+      confirmed: "Ваш email успішно пройшов підтвердження."
+      send_instructions: "Вам прийде лист з інструкціями, як підтвердити вашу email адресу, протягом кількох хвилин."
+      send_paranoid_instructions: "Якщо ваша email адреса існує в нашій базі даних, то ви отримаєте лист з інструкціями, як підтвердити вашу email адресу, протягом кількох хвилин."
+    failure:
+      already_authenticated: "Ви вже увійшли."
+      inactive: "Ваш екаунт поки що не активовано."
+      invalid: "Невірний %{authentication_keys} або пароль."
+      locked: "Ваш екаунт заблоковано."
+      last_attempt: "У вас є ще одне попередження, перед тим як ваш екаунт заблокують."
+      not_found_in_database: "Невірний %{authentication_keys} або пароль."
+      timeout: "Ваш сеанс завершено. Будь-ласка залогуйтесь повторно."
+      unauthenticated: "Вам потрібно залоггуватись, або зареєструватись, перед продовженням."
+      unconfirmed: "Вам необхідно підтвердити Вашу email адресу перед продовженням."
+    mailer:
+      confirmation_instructions:
+        subject: "Конфігураційні інструкції"
+      reset_password_instructions:
+        subject: "Інструкції для відновлення пароля"
+      unlock_instructions:
+        subject: "Інструкції для розблокування"
+    omniauth_callbacks:
+      failure: "Не можу аутентифікувати вашу форму %{kind} тому, що \"%{reason}\"."
+      success: "Успішна аутентифікація форми %{kind} екаунта."
+    passwords:
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "Ви отримаєте лист з інструкцією, як відновити Ваш пароль, протягом кількох хвилин."
+      send_paranoid_instructions: "Якщо ваша email адреса існує в нашій базі даних, ви отримаєте лінк для відновлення пароля на свою email адресу протягом кількох хвилин."
+      updated: "Ваш пароль був успішно змінений. Ви увійшли на сайт."
+      updated_not_active: "Ваш пароль був успішно змінений."
+    registrations:
+      destroyed: "Нехай щастить! Ваш екаунт був успішно видалений. Ми надіємось скоро вас побачити знову."
+      signed_up: "Ласкаво просимо! Ви успішно зареєструвались."
+      signed_up_but_inactive: "Ви успішно зареєструвались. Проте, ми не можемо вас залогувати тому, що ваш екаунт поки що не активований."
+      signed_up_but_locked: "Ви успішно зареєструвались. Проте, ми не можемо вас залогувати тому, що ваш екаунт поки що заблокований."
+      signed_up_but_unconfirmed: "Повідомлення з посиланням про підтвердження було відправлене на вашу email адресу. Будь-ласка пройдіть за посиланням, щоб активувати ваш екаунт."
+      update_needs_confirmation: "Ви успішно оновили свій екаунт, але нам потрібно підтвердити Вашу нову email адресу. Бущь-ласка перевірте свій email і пройдіть по посиланню, щоб підтвердити Вашу нову email адресу."
+      updated: "Ваш екаунт успішно оновлено."
+    sessions:
+      signed_in: "Успішний вхід."
+      signed_out: "Успішний вихід."
+      already_signed_out: "Успішний вихід."
+    unlocks:
+      send_instructions: "Ви отримаєте email з інструкціями, як розблокувати ваш екаунт протягом кількох хвилин."
+      send_paranoid_instructions: "Якщо ваш екаунт існує, ви отримаєте email з інструкціями, як розблокувати протягом кількох хвилин."
+      unlocked: "Ваш екаунт був успішно розблокований. Будь-ласка увійдіть на сайт, щоб продовжити."
+  errors:
+    messages:
+      already_confirmed: "вже був підтверджений, будь-ласка спробуйте увійти на сайт"
+      confirmation_period_expired: "потребує підтвердження протягом %{period}, будь-ласка запросіть новий"
+      expired: "закінчився, будь-ласка запросіть новий"
+      not_found: "не знайдено"
+      not_locked: "було не заблоковано"
+      not_saved:
+        one: "1 помилка не дозволила це %{resource} зберегти:"
+        other: "%{count} помилки не дозволили це %{resource} зберегти:"
