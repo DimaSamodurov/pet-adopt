@@ -3,16 +3,20 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-require 'rspec/core/rake_task'
+begin
+  require 'rspec/core/rake_task'
 
-RSpec::Core::RakeTask.new(:spec)
+  RSpec::Core::RakeTask.new(:spec)
 
-desc 'Run turnip acceptance tests'
-RSpec::Core::RakeTask.new(:turnip) do |t|
-  t.pattern = './spec{,/*/**}/*.feature'
-  t.rspec_opts = ['-r turnip/rspec']
+  desc 'Run turnip acceptance tests'
+  RSpec::Core::RakeTask.new(:turnip) do |t|
+    t.pattern = './spec{,/*/**}/*.feature'
+    t.rspec_opts = ['-r turnip/rspec']
+  end
+
+  task default: [:spec, :turnip]
+rescue
+  puts 'Cannot load RSpec'
 end
-
-task default: [:spec, :turnip]
 
 Rails.application.load_tasks
