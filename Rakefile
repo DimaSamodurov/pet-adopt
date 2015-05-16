@@ -15,8 +15,8 @@ begin
   end
 
   task default: [:spec, :turnip]
-rescue
-  puts 'Cannot load RSpec'
+rescue LoadError
+  warn 'Cannot load RSpec'
 end
 
 Rails.application.load_tasks
