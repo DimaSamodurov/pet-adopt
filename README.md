@@ -68,7 +68,26 @@ https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
 
 ## Установка на сервер
 
-        ...
+    # Install heroku tool following instructions below:
+    # https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up
+    
+    # then 
+    
+    heroku login
+    heroku create # once
+    
+    # Add mongolabs plugin
+    # Add mongodb user and password
+    # Configure MongoDB uri
+    
+    heroku config:set MONGOHQ_URL=mongodb://<dbuser>:<dbpassword>@ds031852.mongolab.com:31852/heroku_app36906824
+    
+    heroku config:set FACEBOOK_APP_ID=
+    heroku config:set FACEBOOK_SECRET=
+
+    # Deploy
+
+    git push heroku master
 
 ## Резервне копіювання даних
 
@@ -88,4 +107,3 @@ https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
 
         ...
 
-Додано HEROKU 
