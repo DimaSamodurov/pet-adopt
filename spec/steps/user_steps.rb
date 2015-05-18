@@ -5,7 +5,7 @@ module UsersSteps
     @user = FactoryGirl.create :user
   end
 
-  step 'в базінемає ні одного користувача' do
+  step 'в базі немає ні одного користувача' do
     User.delete_all
   end
 
@@ -51,6 +51,13 @@ module UsersSteps
     end
   end
 
+  step 'я маю бачити форму з посиланням на логування через фейсбук' do
+    expect(current_path).to eq(new_user_session_path)
+    within("#new_user") do
+      expect(page).to have_css(".facebook_login")
+    end
+  end
+
   step 'я ввів емейл і пароль' do
     within("#new_user") do
       fill_in 'user_email', with: 'test@example.com'
@@ -74,12 +81,27 @@ module UsersSteps
     find('#new_user').click_button('Зареєструватись')
   end
 
+  step 'я натуснув на лінк логування через фейсбук і авторизувавшись там' do
+    mock_auth_hash
+    find('.facebook_login').click
+  end
+
   step 'я маю повернутись на головну сторінку' do
     expect(current_path).to eq(root_path)
   end
 
   step 'бачити повідомлення успішного входу на сайт' do
     expect(page).to have_content "Signed in successfully."
+  end
+
+  step 'бачити повідомлення успішного входу на сайт через фейсбук' do
+    expect(page).to have_content "Successfully authenticated from Facebook account."
+  end
+
+  step 'бачити імя користувача на панелі меню' do
+    within('.top-bar-section') do
+      expect(page).to have_content "mockuser"
+    end
   end
 
   step 'бачити повідомлення успішного виходу із системи' do
