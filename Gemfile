@@ -52,7 +52,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring', '>= 1.3.2'
   # Pry helps you debug application.
   gem 'pry-rails'
   gem 'pry-byebug'
@@ -72,3 +72,4 @@ end
 #for login & users
 gem 'devise'
 gem 'omniauth-facebook'
+gem 'fb_graph2'
