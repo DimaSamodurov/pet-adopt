@@ -11,6 +11,8 @@ class User
   field :email,              type: String, default: ""
   field :encrypted_password, type: String, default: ""
   field :image,              type: String
+  field :fb_token,           type: String
+  field :fb_expires_at,      type: String
 
   ## Recoverable
   field :reset_password_token,   type: String
@@ -47,6 +49,8 @@ class User
       user.password = Devise.friendly_token[0,20]
       user.name = auth.info.name   # assuming the user model has a name
       user.image = auth.info.image # assuming the user model has an image
+      user.fb_token = auth.credentials.token
+      user.fb_expires_at = auth.credentials.expires_at
     end
   end
 

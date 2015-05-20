@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   resources :users
+  get '/facebook' => 'facebook_posts#index', as: :facebook
+  post '/facebook' => 'facebook_posts#reload', as: :facebook_reload
 
   #resources :news
   get '/news' => 'news#list'
