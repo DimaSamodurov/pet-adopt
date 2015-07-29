@@ -32,3 +32,7 @@
         git config url."https://".insteadOf git://
 
 
+## Resources
+
+- [Github Productivity Tools](https://github.com/showcases/productivity-tools)
+- [Github DevOps Tools](https://github.com/showcases/devops-tools)

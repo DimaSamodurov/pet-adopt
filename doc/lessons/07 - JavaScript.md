@@ -12,4 +12,4 @@ Paul Irish - один з видатних інженерів, що рухає We
 а також толкові публікації, інтерв'ю та презентації на конференціях. 
 
 
-
+- [JavaScript frameworks](https://github.com/showcases/front-end-javascript-frameworks)
