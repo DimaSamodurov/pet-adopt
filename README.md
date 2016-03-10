@@ -37,6 +37,12 @@
 Інструкція по настройці середовища на віртуальній машині Ubuntu:
 https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
 
+Деякі кроки налаштування можуть бути виконані вручну:
+
+# Установка і запуск MongoDB (Mac)
+
+https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
+
 
 Для старту проекту локально виконайте:
 
@@ -58,6 +64,11 @@ https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
         rails s
 
 Відкрийте в браузері посилання http://localhost:3000 - ви маєте побачити працюючий проект.
+
+### Тестовий вхід
+
+        User: test@zoo.net
+        Pwd: test1234
 
 ### Тестування
 
