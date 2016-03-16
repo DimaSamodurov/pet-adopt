@@ -9,6 +9,7 @@ class Pet
   field :sex,           type: String
   field :size,          type: String
   field :date_of_birth, type: Date
+  field :submitted_at,  type: DateTime
 
   has_many :uploads, as: :uploadable
 end

@@ -4,6 +4,7 @@ h1 Перелік тварин
   table
     thead
       tr
+        th Дата
         th Ім’я
         th Опис
         th Стан
@@ -18,6 +19,7 @@ h1 Перелік тварин
     tbody
       - @pets.each do |pet|
         tr (data-pet_id ="#{pet.id}")
+          td= pet.submitted_at.strftime '%d.%m %H:%M'
           td= pet.name
           td= pet.description
           td= pet.state

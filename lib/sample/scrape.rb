@@ -32,7 +32,8 @@ class PetScraper
   end
 
   def parse_post_date(string)
-    Date.strptime /На прилаштування (\d\d\.\d\d\.\d\d)/.match(string)[1], '%d.%m.%y'
+    dt = Date.strptime /На прилаштування (\d\d\.\d\d\.\d\d)/.match(string)[1], '%d.%m.%y'
+    dt.to_s + ' %02d:%02d:%02d' % [rand(24), rand(60), rand(60)]
   end
 
   def parse_publishing_date(string)
@@ -50,4 +51,4 @@ puts 'Dogs extracted to dogs.yaml'
 cats = scraper.parse 'cats.html'
 cats.map!{|cat|cat[:species] = :cats; cat}
 File.write 'cats.yaml', cats.to_yaml
-puts 'Cats extracted to dogs.yaml'
+puts 'Cats extracted to cats.yaml'

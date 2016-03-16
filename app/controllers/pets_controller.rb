@@ -4,7 +4,9 @@ class PetsController < ApplicationController
   # GET /pets
   # GET /pets.json
   def index
-    @pets = Pet.all
+    @pets = Pet.all.sort do |x, y|
+      -(x.submitted_at <=> y.submitted_at)
+    end
   end
 
   # GET /pets/1
@@ -30,6 +32,7 @@ class PetsController < ApplicationController
   # POST /pets.json
   def create
     @pet = Pet.new(pet_params)
+    @pet.submitted_at = DateTime.now
 
     respond_to do |format|
       if @pet.save
@@ -45,6 +48,8 @@ class PetsController < ApplicationController
   # PATCH/PUT /pets/1
   # PATCH/PUT /pets/1.json
   def update
+    @pet.submitted_at = DateTime.now
+
     respond_to do |format|
       if @pet.update(pet_params)
         format.html { redirect_to @pet, notice: 'Pet was successfully updated.' }

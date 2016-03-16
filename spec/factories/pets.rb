@@ -18,6 +18,7 @@ FactoryGirl.define do
     sex           {"male"} 
     size          {"medium"}   
     breed         {"chihuahua"}
+    submitted_at  { sample.submitted_at }
 
     state :new
 
