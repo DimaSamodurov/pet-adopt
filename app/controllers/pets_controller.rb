@@ -4,8 +4,10 @@ class PetsController < ApplicationController
   # GET /pets
   # GET /pets.json
   def index
-    @pets = Pet.all.sort do |x, y|
-      -(x.submitted_at <=> y.submitted_at)
+    @pets = Pet.all
+
+    if not @pets.nil?
+      @pets = @pets.sort { |x, y| -(x.submitted_at <=> y.submitted_at) }
     end
   end
 
