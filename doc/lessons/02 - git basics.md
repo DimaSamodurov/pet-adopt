@@ -19,11 +19,22 @@
 
         git clone
 
-- Стягнути зміни з віддаленого репо
+- Стягнути зміни з віддаленого репо (початок [GithubFlow](https://guides.github.com/introduction/flow/))
 
         git pull
-        git pull --rebase
 
+- Переключитись на іншу гілку "develop" 
+
+        git checkout develop
+        
+- Підтягнути останні зміни гілки "develop" з репозиторія "origin" (ми часто опускаємо це ім'я і воно використовується по замовчуванню)
+
+       git pull origin develop
+        
+- Створити нову гілку "update_application_logo"
+
+        git checkout -b update_application_logo
+        
 - Додати змінені файли у локальний репо
 
         git add .
@@ -32,10 +43,10 @@
 
         git commit -m 'Shortly describe changes here'
 
-- Віддати зміни у віддалений репо
+- Віддати зміни у віддалений репо (кінець GitFlow)
 
         git push
-        
+
 - Приховати зміни
 
         # Лише змінені файли
