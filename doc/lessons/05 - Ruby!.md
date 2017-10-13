@@ -31,7 +31,9 @@
 - Модулі, різні види використання модулів (неймспейс, міксин)
 - Наслідування і підмішування (Single parent Inheritance & Mixins)
 - Синглетний клас або метаклас ( Singleton class, Eigen class, Meta class), розширення поведінки будь-якого об'єкта.
+- Method_missing
 - Резолюція методів ( Class.ancestors, method resolution )
+
 - Перелічимий тип ( Enumerable, Enumerator )
 
 # Недоліки
