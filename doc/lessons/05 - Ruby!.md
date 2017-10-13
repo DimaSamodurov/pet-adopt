@@ -25,10 +25,12 @@
 
 - Замикання (Closure, Lambda, Proc)
 - Блоки (Blocks)
-- Клас - це об'єкт
-- Відкритість класу (Open class)
+- Клас - це об'єкт (instance variables, methods, class methods)
+- Self - поточний отримувач виклику методу
+- Відкритість класу (Open class, self всередині класу)
+- Модулі, різні види використання модулів (неймспейс, міксин)
 - Наслідування і підмішування (Single parent Inheritance & Mixins)
-- Синглетний клас або метаклас ( Singleton class, Eigen class, Meta class)
+- Синглетний клас або метаклас ( Singleton class, Eigen class, Meta class), розширення поведінки будь-якого об'єкта.
 - Резолюція методів ( Class.ancestors, method resolution )
 - Перелічимий тип ( Enumerable, Enumerator )
 
