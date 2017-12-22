@@ -6,7 +6,7 @@
 
 ## Додаткові функціональні вимоги
 
-- Публікація оголошень різними люльми.
+- Публікація оголошень різними людьми.
 - Наявність коментарів до оголошень.
 - Інтеграція з соціальними мережами:
 - Наявність кнопок “Подобається”, та “Поширити” для кожного оголошення, а також для сайту в цілому.
@@ -37,6 +37,12 @@
 Інструкція по настройці середовища на віртуальній машині Ubuntu:
 https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
 
+Деякі кроки налаштування можуть бути виконані вручну:
+
+# Установка і запуск MongoDB (Mac)
+
+https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
+
 
 Для старту проекту локально виконайте:
 
@@ -59,6 +65,11 @@ https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
 
 Відкрийте в браузері посилання http://localhost:3000 - ви маєте побачити працюючий проект.
 
+### Тестовий вхід
+
+        User: test@zoo.net
+        Pwd: test1234
+
 ### Тестування
 
 Передбачається, що вся функціональність буде перевірятись автоматичними тестами.
@@ -68,7 +79,26 @@ https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
 
 ## Установка на сервер
 
-        ...
+    # Install heroku tool following instructions below:
+    # https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up
+    
+    # then 
+    
+    heroku login
+    heroku create # once
+    
+    # Add mongolabs plugin
+    # Add mongodb user and password
+    # Configure MongoDB uri
+    
+    heroku config:set MONGOHQ_URL=mongodb://<dbuser>:<dbpassword>@ds031852.mongolab.com:31852/heroku_app36906824
+    
+    heroku config:set FACEBOOK_APP_ID=
+    heroku config:set FACEBOOK_SECRET=
+
+    # Deploy
+
+    git push heroku master
 
 ## Резервне копіювання даних
 
@@ -87,3 +117,4 @@ https://github.com/DimaSamodurov/pet-adopt/doc/lessons/01+-+environment+setup.md
 ## Аналітика відвідування
 
         ...
+

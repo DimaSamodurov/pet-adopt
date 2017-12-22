@@ -6,6 +6,11 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Pet.delete_all
-60.times do
-  FactoryGirl.create :pet
-end
+News.delete_all
+User.delete_all
+
+FactoryGirl.create_list :pet, 60
+FactoryGirl.create_list :news, 10
+user = User.create!(name: 'Test User',
+             email: 'test@zoo.net',
+             password: 'test1234')

@@ -1,0 +1,6 @@
+= button_to "Оновити дописи", facebook_reload_path
+div class="row"
+  - if @posts
+      - @posts.each do |post|
+        div class="large-full columns"
+            div class="fb-post" data-href=post.url data-width="500"

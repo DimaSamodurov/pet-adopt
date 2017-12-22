@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.2.0'
 
+# Environment variables.
+gem 'dotenv-rails', :groups => [:development, :test]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use SCSS for stylesheets
@@ -50,7 +52,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring', '>= 1.3.2'
   # Pry helps you debug application.
   gem 'pry-rails'
   gem 'pry-byebug'
@@ -66,3 +68,8 @@ group :test do
   gem 'database_cleaner', :require => false
   gem 'turnip'
 end
+
+#for login & users
+gem 'devise'
+gem 'omniauth-facebook'
+gem 'fb_graph2'

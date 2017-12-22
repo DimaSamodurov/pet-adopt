@@ -1,26 +1,33 @@
 h1 Перелік тварин
 
-table
-  thead
-    tr
-      th Ім’я
-      th Опис
-      th Стан
-      th Зображення
-      th
-      th
-      th
-
-  tbody
-    - @pets.each do |pet|
+.pet-list
+  table
+    thead
       tr
-        td= pet.name
-        td= pet.description
-        td= pet.state
-        td= image_tag attachment_url(pet.uploads.first, :image, :fill, 100, 100, format: "jpg") if pet.uploads.any?
-        td= link_to 'Деталі', pet
-        td= link_to 'Редагувати', edit_pet_path(pet)
-        td= link_to 'Знищити', pet, :method => :delete, :data => confirm=('Ви впевнені?')
+        th Ім’я
+        th Опис
+        th Стан
+        th Стать
+        th Порода
+        th Розмір
+        th Зображення
+        th 
+        th
+        th
+
+    tbody
+      - @pets.each do |pet|
+        tr (data-pet_id ="#{pet.id}")
+          td= pet.name
+          td= pet.description
+          td= pet.state
+          td= pet.sex
+          td= pet.breed
+          td= pet.size
+          td= image_tag attachment_url(pet.uploads.first, :image, :fill, 100, 100, format: "jpg") if pet.uploads.any?
+          td= link_to 'Деталі', pet
+          td= link_to 'Редагувати', edit_pet_path(pet)
+          td= link_to 'Знищити', pet, :method => :delete, :data => confirm=('Ви впевнені?')
 
 br
 

@@ -6,6 +6,8 @@ class Pet
   field :state,         type: String
   field :species,       type: String
   field :breed,         type: String
+  field :sex,           type: String
+  field :size,          type: String
   field :date_of_birth, type: Date
 
   has_many :uploads, as: :uploadable

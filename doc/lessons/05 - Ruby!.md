@@ -25,11 +25,15 @@
 
 - Замикання (Closure, Lambda, Proc)
 - Блоки (Blocks)
-- Клас - це об'єкт
-- Відкритість класу (Open class)
+- Клас - це об'єкт (instance variables, methods, class methods)
+- Self - поточний отримувач виклику методу
+- Відкритість класу (Open class, self всередині класу)
+- Модулі, різні види використання модулів (неймспейс, міксин)
 - Наслідування і підмішування (Single parent Inheritance & Mixins)
-- Синглетний клас або метаклас ( Singleton class, Eigen class, Meta class)
+- Синглетний клас або метаклас ( Singleton class, Eigen class, Meta class), розширення поведінки будь-якого об'єкта.
+- Method_missing
 - Резолюція методів ( Class.ancestors, method resolution )
+
 - Перелічимий тип ( Enumerable, Enumerator )
 
 # Недоліки
@@ -47,6 +51,8 @@
 - [Ruby - Стисло](http://zenspider.com/Languages/Ruby/QuickRef.html) - 
  не допоможе зрозуміти мову, але допоможе побачити що іще ви не знаєте :)
 - [Awesome Ruby](http://awesome-ruby.com/) - опис бібліотек що найчастіше використовуються.
+- [Ruby Bookmarks](https://github.com/dreikanter/ruby-bookmarks) - іще один каталог найцікавіших рубі ресурсів.
+- [Another Ruby Bookmarks](https://github.com/Sdogruyol/awesome-ruby) - і іще один каталог ресурсів.
 - [Документація](http://rubyinstaller.org/downloads/) - 
  документація у форматі .chm - зручна для офлайн перегляду і пошуку.
 - [Metaprogramming in Ruby: It’s All About the Self](http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/)
