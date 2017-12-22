@@ -4,6 +4,12 @@ module NewsSteps
     FactoryGirl.create_list :news, 20
   end
 
+  step 'декілька новин' do
+    News.create text: 'Milly'
+    News.create text: 'Billi'
+    News.create text: 'Silli'
+  end
+
   step 'ми відкрили сторінку новин' do
     visit news_path
   end
