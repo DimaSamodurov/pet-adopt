@@ -18,3 +18,10 @@ Rake, Thor - are such a tools in Ruby ecosystem.
 https://ruby.github.io/rake/
 http://whatisthor.com/
 
+## Task
+
+Implement rake task to display list of available records of an existing model (e.g User).
+In ohter words: task to display list of available users (name/email) on the screen.
+
+    # rake users:list
+
