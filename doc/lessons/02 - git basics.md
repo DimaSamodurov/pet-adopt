@@ -64,6 +64,12 @@
 - Необхідно всім закомітіти зміни і віддати у репо.
 
 
+## Часто використовані команди
+
+Видалити всі локальні гілки окрім мастера
+
+        git branch | grep -v "master" | xargs git branch -D 
+
 ## Рекомендовані джерела
 
 Git documentation: [http://git-scm.com/docs/](http://git-scm.com/docs/)
