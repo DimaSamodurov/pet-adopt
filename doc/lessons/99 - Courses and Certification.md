@@ -1,7 +1,12 @@
 # Learning Courses and Certification resources
 
+
+
+
 | url | description | price
 |-----|-------------|---
+| https://www.w3schools.com/ | basic web cources from W3 consorcium | free 
+| https://www.freecodecamp.org/ | web cources | free
 | http://www.codeconquest.com/ |  a free online guide to coding for beginners. 
 | http://www.codeconquest.com/training/ | training recommendations for many languages and aspects. |
 | https://www.testdome.com/tests | a few free test samples for each language.
