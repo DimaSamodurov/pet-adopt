@@ -5,6 +5,7 @@
 
 | url | description | price
 |-----|-------------|---
+| https://developer.mozilla.org/en-US/docs/Learn | Route for beginners from Mozilla! | free
 | https://www.w3schools.com/ | basic web cources from W3 consorcium | free 
 | https://www.freecodecamp.org/ | web cources | free
 | http://www.codeconquest.com/ |  a free online guide to coding for beginners. 
