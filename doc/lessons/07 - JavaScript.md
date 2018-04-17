@@ -1,3 +1,9 @@
+## Online JS Editors
+- https://jsfiddle.net/
+- https://codepen.io/
+- https://www.w3schools.com/tryit/default.asp
+
+
 ## Рекомендовані джерела
 
 
