@@ -25,7 +25,7 @@
 
 | url | description  
 |-----|---
-| https://laracasts.com/series/es6-cliffsnotes/episodes/| ES2015 Crash Cource |  Free
+| https://laracasts.com/series/es6-cliffsnotes/| ES2015 Crash Cource |  Free
 | https://javascript30.com/ | 30 Day Vanilla JS Coding Challenge | Free
 | https://egghead.io/courses/the-beginner-s-guide-to-reactjs | Beginners guide to ReactJS | Free
  
