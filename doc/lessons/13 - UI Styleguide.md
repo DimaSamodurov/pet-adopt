@@ -23,3 +23,6 @@ https://www.hongkiat.com/blog/best-living-style-guide-tools/
 - [Simple style guide for Rails 5.1+](https://github.com/jensljungblad/styleguide)
 - [999 Website Style Guide Resources](http://styleguides.io/)
 - [An overview of automatic living styleguide generators ](https://github.com/davidhund/styleguide-generators)
+
+## Design examples
+- https://polaris.shopify.com/design/colors
