@@ -12,12 +12,25 @@
 
 - [Facny Pixel: React + Flux Backed by Rails API - Part 2](http://fancypixel.github.io/blog/2015/01/29/react-plus-flux-backed-by-rails-api-part-2/)
 
-
+## Search implementation
 - [TODO MVC On Steroids](https://medium.com/@amitayh/todomvc-on-steroids-da5fc672f1bd)
 - [React-Searchkit](https://github.com/inveniosoftware/react-searchkit)
 
+Using ReactiveSearch:
+- Comparison matrix: https://github.com/appbaseio/reactivesearch#5-comparison-with-other-projects
+
+### Guides/Examples
+
+- https://github.com/appbaseio/reactivesearch
+- https://codeburst.io/how-to-build-an-e-commerce-search-ui-with-react-and-elasticsearch-a581c823b2c3
+- https://scotch.io/tutorials/build-an-airbnb-clone-with-react-and-elasticsearch
+
+## Misc
+
 -[Style Guidist](https://react-styleguidist.js.org/)
 
+- [Structuring App](https://survivejs.com/react/advanced-techniques/structuring-react-projects/)
+- [Structuring App using index.js](https://alligator.io/react/index-js-public-interfaces/)
 
 - [Gatsby](https://www.gatsbyjs.org/) framework to build static web sites.
 - [Don't Rewrite, React](https://www.youtube.com/watch?v=BF58ZJ1ZQxY) - How to update page to react step by step.
