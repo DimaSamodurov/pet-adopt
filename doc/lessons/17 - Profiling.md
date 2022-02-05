@@ -1,6 +1,6 @@
 When developing locally or having a single server instance you could profile manually:
 
-- when you can instrument the code: [stackprof](https://github.com/tmm1/stackprof)
+- when you can instrument the code: [stackprof](https://github.com/tmm1/stackprof) and [stackprof-webnav](https://github.com/alisnic/stackprof-webnav)
 - when you can inspect a running process: [rbspy](https://github.com/rbspy/rbspy)
 
 When you have dosen of instances running, it is less effective to profile a single one. 
