@@ -11,3 +11,4 @@ Checklist for production:
 - DDoS attacs protection measures. Iptables, AWS WAF.
 - Captcha for registration.
 - Email confirmation for registratuin.
+- Track production errors in Honeybadger.io.
