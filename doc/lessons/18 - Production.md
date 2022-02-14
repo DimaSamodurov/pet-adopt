@@ -6,9 +6,9 @@ Checklist for production:
 - Monitoring of responce time (visible to users!). Alert when > 2 seconds.
 - Statistics of requests per period (per minute, per hour) - cannot be done by Google Analitics. 
 - SSL auto renewal.
-- Ensure emails are sent from correct address. check email correctness (links, translations). Configure SPF, DKM.
+- Ensure emails are sent from correct address. check email correctness (links, translations). 
+- Configure email SPF, DKM.
 - Log rotation to save disk space.
-- DDoS attacs protection measures. Iptables, AWS WAF.
 - Captcha for registration.
 - Email confirmation for registratuin.
 - Track production errors in Honeybadger.io.
