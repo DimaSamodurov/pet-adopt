@@ -31,4 +31,42 @@
 
         git config url."https://".insteadOf git://
 
+## Setup PG with docker
 
+docker-compose.yml
+
+<pre>
+version: "3.6"
+services:
+  db:
+    image: postgres:10
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata10:/var/lib/postgresql/data
+      - /var/run/postgresql:/var/run/postgresql
+</pre>
+
+- Install docker and docker compose (from official doc)
+- Instal postgres client libraries (no need to install database)
+  <pre>
+    # dependencies for pg gem
+    sudo apt install libpq-dev
+    # postgres client tools
+    sudo apt install postgresql-client-common
+    sudo apt install postgresql-client
+  </pre>
+- Run DB server: 
+  <pre>
+    docker-compose up db
+  </pre>   
+- Add postgres role for the current user with permissions
+  <pre>
+    whoami|createuser -U postgres --createdb --superuser
+    # Or with psql 
+    psql -U postgres
+    # then from psql console
+    $create user dima with createdb superuser;
+  </pre>
