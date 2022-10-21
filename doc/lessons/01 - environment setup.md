@@ -50,23 +50,40 @@ services:
 </pre>
 
 - Install docker and docker compose (from official doc)
+  https://docs.docker.com/engine/install/ubuntu/
+  https://docs.docker.com/engine/install/linux-postinstall/
+  
+  ``` 
+  sudo apt install docker-compose
+  sudo groupadd docker
+  sudo usermod -aG docker $USER
+  ```
+  
 - Instal postgres client libraries (no need to install database)
-  <pre>
+  ```
     # dependencies for pg gem
     sudo apt install libpq-dev
     # postgres client tools
     sudo apt install postgresql-client-common
     sudo apt install postgresql-client
-  </pre>
+  ```
 - Run DB server: 
-  <pre>
+  ```
     docker-compose up db
-  </pre>   
+  ```   
 - Add postgres role for the current user with permissions
-  <pre>
+  ```
     whoami|createuser -U postgres --createdb --superuser
     # Or with psql 
     psql -U postgres
     # then from psql console
     $create user dima with createdb superuser;
-  </pre>
+  ```
+  
+  
+- Install [NVM](https://github.com/nvm-sh/nvm)
+
+ ```
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+ ```
+
