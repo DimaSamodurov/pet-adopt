@@ -28,3 +28,7 @@ Reload ssh
 ## Автоматична конфігурація за допомогою Chef + Capistrano
 
 ## Установка за допомогою Docker
+
+## Scaling
+
+- https://tsh.io/blog/how-to-scale-websocket/
