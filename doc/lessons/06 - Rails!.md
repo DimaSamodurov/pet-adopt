@@ -70,6 +70,7 @@ RubyOnRails - це фреймворк для швидкої розробки в�
 - [Go Rails](https://gorails.com/) - відеоуроки і статті по Rails.
 - [Rails-API](https://github.com/rails-api/rails-api) - Модифікація Rails для побудови чистого API. Також опис - чому Rails.
 - [Tealeaf Academy Blog](http://www.gotealeaf.com/blog/archives) - Непогані статті що вчать RubyOnRails.
+- [The Turbo Rails Tutorial](https://www.hotrails.dev/) - Learn how to create modern, single-page, reactive web applications with Ruby on Rails 7 without writing any custom JavaScript code. 
 
 ### Блоги
 
