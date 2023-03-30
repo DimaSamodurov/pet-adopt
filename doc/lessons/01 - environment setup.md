@@ -90,3 +90,7 @@ services:
  - Install ruby using rvm on Ubuntu 22.04 and above with openssl 1.1
  https://github.com/rvm/rvm/issues/5209#issuecomment-1114159447
 
+## Resources
+
+- [Github Productivity Tools](https://github.com/showcases/productivity-tools)
+- [Github DevOps Tools](https://github.com/showcases/devops-tools)

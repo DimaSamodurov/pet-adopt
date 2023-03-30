@@ -58,7 +58,7 @@
 
         git stash pop
         
- # Завдання
+### Завдання
         
 - Люди А, Б, С відредагувати файл README.md, по різному змінівши першу стрічку.
 - Необхідно всім закомітіти зміни і віддати у репо.
@@ -73,4 +73,4 @@
 ## Рекомендовані джерела
 
 Git documentation: [http://git-scm.com/docs/](http://git-scm.com/docs/)
-
+Покрокове пояснення (із російським перекладом): [http://githowto.com/aliases](http://githowto.com/aliases)

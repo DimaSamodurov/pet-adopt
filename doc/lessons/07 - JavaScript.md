@@ -22,6 +22,6 @@ Paul Irish - один з видатних інженерів, що рухає We
 Every JavaScript Developer Should Know
 AKA: The Keys to JavaScript Mastery
 
+- [JavaScript frameworks](https://github.com/showcases/front-end-javascript-frameworks)
 - [Mattias Petter Johansson](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) - 
 Great, professional, fun, artistic JS tutorials.
-
