@@ -9,6 +9,8 @@
 - https://blog.logrocket.com/10-best-tailwind-css-component-template-collections/ 
 - https://github.com/rogden/tailwind-config-viewer
 - https://unocss.dev/ 
+- https://github.com/aniftyco/awesome-tailwindcss
+- https://github.com/unlight/tailwind-components - Awesome style collection of resources
 
 #### Templates
 - https://github.com/web3templates/nextly-template/
