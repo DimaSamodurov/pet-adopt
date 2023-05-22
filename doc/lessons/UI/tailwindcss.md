@@ -12,6 +12,7 @@
 
 #### Templates
 - https://github.com/web3templates/nextly-template/
+- https://github.com/tailwindtoolbox/Landing-Page
 
 #### Comparison
 | Library | License | Stars | Notes | 
