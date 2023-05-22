@@ -4,11 +4,14 @@
 - https://tailwindcss.com/docs Official Documentation
 - https://play.tailwindcss.com/ Playground
 
-#### Components, themes, plugins
+#### Components, themes, plugins review
 - https://dev.to/cruip/25-places-where-you-can-get-free-tailwind-css-components-47lm
 - https://blog.logrocket.com/10-best-tailwind-css-component-template-collections/ 
 - https://github.com/rogden/tailwind-config-viewer
 - https://unocss.dev/ 
+
+#### Templates
+- https://github.com/web3templates/nextly-template/
 
 #### Comparison
 | Library | License | Stars | Notes | 
