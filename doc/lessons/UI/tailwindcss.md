@@ -21,10 +21,10 @@
 |---|---|---|---| 
 | https://tailwindui.com/ | Dual || Components from TW core team. Good crafted. Does not contain free JS, but contains hints for JS.
 | https://sailboatui.com/ | MIT | 730 | Components + Alpine JS. TW Tools (quite fresh, kinda awesome TW)
+| https://www.hyperui.dev/ | MIT | 5.2k| Custom Preview page. Provides component creation documentation. - There is JS version of components based on AlpineJS.
 | https://daisyui.com | MIT | 19K | - Bootstrap like ***semantic*** components. - Theme support. - Cons: JS dependency. New Classes.
 | https://a17t.miles.land | MIT | - Small. Bootstrap like ***semantic*** components. No dependency. New Classes.
 | https://www.material-tailwind.com | Dual || Probably the choise if you need Material.
-| https://www.hyperui.dev/ | MIT || Custom Preview page. Provides component creation documentation. - There is JS version of components based on AlpineJS.
 | https://flowbite.com/ | Dual || Good component base + pro components. - Cons: dependency on flowbite js and some classes.
 | https://tailwindcss.5balloons.info/ | MIT || contains some useful Alpine examples. https://github.com/tushargugnani/tailwind-stamps
 | https://www.tailwindawesome.com || Search for TW components
