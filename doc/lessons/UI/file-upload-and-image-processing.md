@@ -6,4 +6,5 @@
 | https://pqina.nl/filepond/   | MIT + C |   12K | Integrated well with Pintura
 
 ## Image Editors
+- https://uppy.io/docs/image-editor/ (MIT)
 - https://pqina.nl/pintura/ (commercial)
