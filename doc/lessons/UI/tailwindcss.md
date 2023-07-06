@@ -41,5 +41,6 @@
 | https://merakiui.com/components/ | MIT | 2k | TW + Alpine (nice)
 | https://mambaui.com/ ||| ..
 | https://tailblocks.cc/ || 8K | components ..
+| https://preline.co/ | MIT + Pro | 1.6K | Custom JS, Quite good plugin system
 
 
